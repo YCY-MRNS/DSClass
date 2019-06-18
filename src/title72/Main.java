@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @description:
  * @author: YuanChangYue
  * @TestData 6634 9796 435 1405 6123 10001 11459 12018 10372 19874 12860 11326 7096 30205 27010
- *           6634,9796,435,1405,6123,10001,11459,12018,10372,19874,12860,11326,7096,30205,27010
+ * 6634,9796,435,1405,6123,10001,11459,12018,10372,19874,12860,11326,7096,30205,27010
  * @create: 2019-06-18 11:49
  */
 public class Main {
@@ -18,6 +18,7 @@ public class Main {
         for (int i = 0; i < 15; i++) {
             arrays[i] = in.nextInt();
         }
+        in.close();
         barrelSort(arrays);
     }
 
@@ -51,10 +52,12 @@ public class Main {
                 }
                 bucketEleCount[j] = 0;
             }
+
             for (int i : arr) {
                 System.out.print(i + " ");
             }
             System.out.println();
+
         }
     }
 }
