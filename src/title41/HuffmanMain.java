@@ -4,12 +4,15 @@ import java.util.Scanner;
 
 
 public class HuffmanMain {
+
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
         String len = in.nextLine();
         String charset = in.nextLine();
         String arrStr = in.nextLine();
+
+        in.close();
 
         String[] split = charset.split("\\s+");
         String[] arr = arrStr.split("\\s+");
@@ -30,14 +33,14 @@ class TriElement {
     int data;
     int parent, left, right;
 
-    public TriElement(int data, int parent, int left, int right) {
+    TriElement(int data, int parent, int left, int right) {
         this.data = data;
         this.parent = parent;
         this.left = left;
         this.right = right;
     }
 
-    public TriElement(int data) {
+    TriElement(int data) {
         this(data, -1, -1, -1);
     }
 
@@ -52,7 +55,7 @@ class HuffmanTree {
     private String charset;
     private TriElement[] huftree;
 
-    public HuffmanTree(int[] weights) {
+    HuffmanTree(int[] weights) {
         this.charset = "";
         for (int i = 0; i < weights.length; i++)
             this.charset += (char) ('a' + i);
