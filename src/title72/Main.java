@@ -25,7 +25,7 @@ public class Main {
     private static void barrelSort(int[] arr) {
 
         int[][] bucket = new int[10][arr.length];
-        int[] bucketEleCount = new int[15];
+        int[] bucketEleCount = new int[arr.length];
 
         int max = arr[0];
         for (int anArr : arr) {
@@ -41,10 +41,12 @@ public class Main {
                 int numberOfDigits = anArr / n % 10;
                 bucket[numberOfDigits][bucketEleCount[numberOfDigits]] = anArr;
                 bucketEleCount[numberOfDigits]++;
+                //  System.out.print(anArr + "--" + numberOfDigits + "-" + bucketEleCount[numberOfDigits] + " \n");
             }
-
+            //    System.out.println(bucketEleCount.length);
             int index = 0;
             for (int j = 0; j < bucketEleCount.length; j++) {
+                //  System.out.println(bucketEleCount[j]);
                 if (bucketEleCount[j] != 0) {
                     for (int k = 0; k < bucketEleCount[j]; k++) {
                         arr[index++] = bucket[j][k];
@@ -57,7 +59,8 @@ public class Main {
                 System.out.print(i + " ");
             }
             System.out.println();
-
         }
     }
+
+
 }
