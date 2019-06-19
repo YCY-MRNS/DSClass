@@ -1,4 +1,4 @@
-package queue;
+package title32;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package tiltle62;
+package title62;
 
 import java.util.Scanner;
 

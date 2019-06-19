@@ -33,14 +33,14 @@ public class Main {
                 max = anA1;
         }
 
-        int maxLen = (max + "").length();
+        int m = (max + "").length();
 
         ArrayList<SeqQueue<Integer>> qArr = new ArrayList<>();
-        for (int k = 1, n = 1; k < maxLen + 1; k++, n *= 10) {
+        for (int i = 0; i < 10; i++) {
+            qArr.add(new SeqQueue<>());
+        }
+        for (int k = 1, n = 1; k < m + 1; k++, n *= 10) {
             System.out.println("Step" + k + ".");
-            for (int i = 0; i < 10; i++) {
-                qArr.add(new SeqQueue<>());
-            }
             int[] eleCount = new int[a.length];
 
             for (int anA : a) {
@@ -50,7 +50,7 @@ public class Main {
             }
 
             int index = 0;
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < qArr.size(); i++) {
                 System.out.print("Queue" + i + ":");
                 if (eleCount[i] != 0) {
                     for (int i1 = 0; i1 < eleCount[i]; i1++) {

@@ -3,7 +3,7 @@ package title41;
 import java.util.Scanner;
 
 
-public class HuffmanMain {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -23,7 +23,7 @@ public class HuffmanMain {
             weight[i] = Integer.parseInt(arr[i]);
         }
 
-        HuffmanTree huffman = new HuffmanTree(weight);
+        HuffmanTree huffman = new HuffmanTree(weight, charset.replaceAll("\\s+", ""));
         System.out.println(huffman.toString());
 
     }
@@ -55,10 +55,8 @@ class HuffmanTree {
     private String charset;
     private TriElement[] huftree;
 
-    HuffmanTree(int[] weights) {
-        this.charset = "";
-        for (int i = 0; i < weights.length; i++)
-            this.charset += (char) ('a' + i);
+    HuffmanTree(int[] weights, String charset) {
+        this.charset = charset;
 
         int n = weights.length;
         this.huftree = new TriElement[2 * n - 1];
@@ -101,7 +99,7 @@ class HuffmanTree {
     public String toString() {
         String str = "";
         for (int i = 0; i < this.charset.length(); i++)
-            str += this.charset.charAt(i) + "：" + getCode(i) + "\n";
+            str += this.charset.charAt(i) + ":" + getCode(i) + "\n";
         return str;
     }
 }

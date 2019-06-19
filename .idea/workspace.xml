@@ -2,15 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75aeb4ff-8bdf-4d9f-a49b-6eeed58a3472" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/teat/radixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title60/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title70/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title41/HuffmanMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title41/HuffmanMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/queue/LinkedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/queue/LinkedQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/queue/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/queue/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/queue/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/queue/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/queue/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/queue/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/queue/QueueBankProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/queue/QueueBankProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/queue/QueueEncoded.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/queue/QueueEncoded.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/queue/SeqQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/queue/SeqQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/LinkedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/LinkedQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/QueueEncoded.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/QueueEncoded.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/SeqQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle32/SeqQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle62/Title_62.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/tiltle62/Title_62.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SeqList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SeqList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList_Integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList_Integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Man.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/SinglyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/SinglyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/SortedSinglyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/SortedSinglyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title30/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title30/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title30/SeqList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title30/SeqList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title30/SeqStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title30/SeqStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title30/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title30/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title41/HuffmanMain.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title41/HuffmanTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title41/HuffmanTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title41/TriElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title41/TriElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title72/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title72/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title42/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title42/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title61/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title61/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/LinkedQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/QueueBankProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/QueueEncoded.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/SeqQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teat/radixSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tiltle32/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title32/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tiltle32/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title32/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tiltle32/QueueEncoded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title32/QueueEncoded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tiltle32/SeqQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title32/SeqQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tiltle62/Title_62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title62/Title_62.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title41/HuffmanMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title41/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title52/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title52/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title60/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title60/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title70/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title70/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,22 +103,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="91" />
+          <entry key="java" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="91" />
+          <entry key="JAVA" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2058" />
+          <entry key="java" value="3969" />
+          <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2058" />
+          <entry key="JAVA" value="3969" />
+          <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
     </session>
@@ -85,10 +128,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/title60/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/title70/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="494">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,10 +207,19 @@
         <option value="$PROJECT_DIR$/src/title42/Main.java" />
         <option value="$PROJECT_DIR$/src/title22/Main.java" />
         <option value="$PROJECT_DIR$/src/title12/SortedSeqList_Integer.java" />
-        <option value="$PROJECT_DIR$/src/title41/HuffmanMain.java" />
-        <option value="$PROJECT_DIR$/src/title72/Main.java" />
         <option value="$PROJECT_DIR$/src/teat/radixSort.java" />
+        <option value="$PROJECT_DIR$/src/title72/Main.java" />
         <option value="$PROJECT_DIR$/src/title70/Main.java" />
+        <option value="$PROJECT_DIR$/src/title41/HuffmanMain.java" />
+        <option value="$PROJECT_DIR$/src/title41/Main.java" />
+        <option value="$PROJECT_DIR$/src/title60/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/G9_Kruskal.java" />
+        <option value="$PROJECT_DIR$/src/test/UnionFindSet.java" />
+        <option value="$PROJECT_DIR$/src/test/Triple.java" />
+        <option value="$PROJECT_DIR$/src/test/TripleComparator.java" />
+        <option value="$PROJECT_DIR$/src/test/MinSpanTree.java" />
+        <option value="$PROJECT_DIR$/src/test/Heap.java" />
+        <option value="$PROJECT_DIR$/src/title52/Main.java" />
       </list>
     </option>
   </component>
@@ -198,6 +253,19 @@
               <item name="DSClass" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="title70" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="title70" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -207,9 +275,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/TrainProject/DSClass/src/title60/Main.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560939791986" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560954639896" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -220,14 +289,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
       <recent name="title42" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TrainProject\DSClass\src\test" />
       <recent name="F:\DSClassDesign\src\huffman" />
       <recent name="F:\DSClassDesign\src" />
       <recent name="D:\DSClassDesign\src\title42" />
       <recent name="D:\DSClassDesign\src\title" />
-      <recent name="D:\DSClassDesign\src\title22" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,13 +312,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="HuffmanMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title41.HuffmanMain" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="title72.Main" />
       <module name="DSClassDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="title72.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,12 +326,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title72.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="title60.Main" />
       <module name="DSClassDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="title72.*" />
+          <option name="PATTERN" value="title60.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,12 +352,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedSeqList_Integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title12.SortedSeqList_Integer" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="title41.Main" />
       <module name="DSClassDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="title12.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,19 +379,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HuffmanMain" />
-      <item itemvalue="Application.SortedSeqList_Integer" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.radixSort" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.radixSort" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.HuffmanMain" />
-        <item itemvalue="Application.SortedSeqList_Integer" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +409,7 @@
       <workItem from="1560860967903" duration="4312000" />
       <workItem from="1560865692883" duration="440000" />
       <workItem from="1560866266585" duration="524000" />
-      <workItem from="1560919220042" duration="9481000" />
+      <workItem from="1560919220042" duration="19971000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;数据结构&quot;">
       <created>1560865204579</created>
@@ -350,14 +418,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560865204579</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;数据结构2019/6/19&quot;">
+      <created>1560940095815</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560940095815</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66006000" />
+    <option name="totallyTimeSpent" value="76496000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1852123" />
@@ -369,7 +444,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294271" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.83723956" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.296875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995984" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -401,15 +476,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;数据结构&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;数据结构&quot;" />
+    <MESSAGE value="&quot;数据结构2019/6/19&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;数据结构2019/6/19&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Title_40.java" />
-    <entry file="file://$PROJECT_DIR$/src/Title_50.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/SortedSeqList_String.java" />
-    <entry file="file://$PROJECT_DIR$/src/Title_12.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/SortedSeqList.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/LinkedStack.java" />
     <entry file="file://$PROJECT_DIR$/src/test/DecimalToBinaryByChainStack.java" />
     <entry file="file://$PROJECT_DIR$/src/test/Stack.java" />
     <entry file="file://$PROJECT_DIR$/src/test/SeqList.java" />
@@ -442,14 +512,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tiltle62/Title_62.java">
+    <entry file="file://$PROJECT_DIR$/src/title62/Title_62.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tiltle32/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/title32/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="44" column="58" lean-forward="true" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
@@ -480,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/title22/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/title12/SortedSeqList_Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -498,20 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title41/HuffmanMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title52/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -557,27 +606,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/title72/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/title22/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="314">
+          <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+          <folding>
+            <element signature="e#1370#1371#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/title70/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/title41/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="323">
+          <caret line="17" column="37" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title60/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="36" column="9" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/G9_Kruskal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/title60/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/UnionFindSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="304">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Triple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TripleComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/MinSpanTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-829">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title52/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title72/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title70/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package tiltle32;
+package title32;
 
     import java.util.Scanner;
 

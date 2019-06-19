@@ -1,4 +1,4 @@
-package tiltle32;
+package title32;
 
 public final class SeqQueue<T> implements Queue<T> {
     private Object element[];
