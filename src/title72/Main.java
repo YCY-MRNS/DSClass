@@ -15,9 +15,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] arrays = new int[15];
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 15; i++)
             arrays[i] = in.nextInt();
-        }
+
         in.close();
         barrelSort(arrays);
     }

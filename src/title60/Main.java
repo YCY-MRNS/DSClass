@@ -11,32 +11,38 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        int z = in.nextInt();
 
-        int len = in.nextInt();
+        int[] temp = new int[3];
 
-        if (len == 1) {
-            len = in.nextInt();
-        }
+        while (z != 0) {
+            z--;
 
-        int[] cho = new int[len];
-        int[][] arr = new int[cho.length][3];
+            int len = in.nextInt();
 
+            int[][] arr = new int[len][3];
 
-        for (int i = 0; i < cho.length; i++) {
-            arr[i][0] = in.nextInt();
-            arr[i][1] = in.nextInt();
-            arr[i][2] = in.nextInt();
-        }
+            for (int i = 0; i < len; i++) {
+                arr[i][0] = in.nextInt();
+                arr[i][1] = in.nextInt();
+                arr[i][2] = in.nextInt();
 
-        int[] optimal = new int[3];
+                if (i == 0) {
+                    temp[0] = arr[i][0];
+                    temp[1] = arr[i][1];
+                    temp[2] = arr[i][2];
+                }
 
-        for (int i = 0; i < arr.length; i++) {
-            if (i < arr.length - 1 && optimalChoc(arr[i], arr[i + 1])) {
-                optimal = arr[i];
+                for (int j = 0; j < arr.length; j++) {
+                    if (j < arr.length - 1 && optimalChoc(temp, arr[j])) {
+                        temp[0] = arr[j][0];
+                        temp[1] = arr[j][1];
+                        temp[2] = arr[j][2];
+                    }
+                }
+                System.out.println(temp[2]);
             }
         }
-        System.out.println(optimal[2]);
-
     }
 
     private static boolean optimalChoc(int[] aChoc, int[] bChoc) {
@@ -46,4 +52,40 @@ public class Main {
             return aChoc[1] < bChoc[1];
         else return aChoc[2] > bChoc[2];
     }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
