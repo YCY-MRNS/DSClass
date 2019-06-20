@@ -39,9 +39,10 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             qArr.add(new SeqQueue<>());
         }
+
         for (int k = 1, n = 1; k < m + 1; k++, n *= 10) {
             System.out.println("Step" + k + ".");
-            int[] eleCount = new int[a.length];
+            int[] eleCount = new int[10];
 
             for (int anA : a) {
                 int numberOfDigits = anA / n % 10;
@@ -105,7 +106,7 @@ final class SeqQueue<T> {
         return true;
     }
 
-    public T poll() {
+    T poll() {
         if (this.isEmpty())
             return null;
         T temp = (T) this.element[this.front];

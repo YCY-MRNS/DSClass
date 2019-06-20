@@ -25,6 +25,7 @@ public class Main {
 
         HuffmanTree huffman = new HuffmanTree(weight, charset.replaceAll("\\s+", ""));
         System.out.println(huffman.toString());
+
     }
 }
 
