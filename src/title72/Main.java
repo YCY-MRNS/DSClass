@@ -33,6 +33,7 @@ public class Main {
                 max = anArr;
         }
 
+
         int len = (max + "").length();
 
         for (int m = 0, n = 1; m < len; m++, n *= 10) {

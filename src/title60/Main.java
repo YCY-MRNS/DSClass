@@ -1,5 +1,6 @@
 package title60;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -33,14 +34,17 @@ public class Main {
                     temp[2] = arr[i][2];
                 }
 
-                for (int j = 0; j < arr.length; j++) {
-                    if (j < arr.length - 1 && optimalChoc(temp, arr[j])) {
-                        temp[0] = arr[j][0];
-                        temp[1] = arr[j][1];
-                        temp[2] = arr[j][2];
+
+                for (int[] ints : arr) {
+                    System.out.println(Arrays.toString(ints));
+                    if (optimalChoc(ints, temp)) {
+                        temp[0] = ints[0];
+                        temp[1] = ints[1];
+                        temp[2] = ints[2];
+                        System.out.println(Arrays.toString(temp) + "new");
                     }
                 }
-                System.out.println(temp[2]);
+
             }
         }
     }

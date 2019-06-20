@@ -17,9 +17,10 @@ public class Main2 {
 
         T = scanner.nextInt();
 
+        int index = 1;
+
         while (T != 0) {
             T--;
-
             n = scanner.nextInt();
 
             for (i = 0; i < n; i++) {
@@ -51,7 +52,10 @@ public class Main2 {
                     }
                 }
             }
+
             System.out.println(cMax);
+
+
         }
     }
 

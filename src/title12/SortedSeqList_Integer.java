@@ -156,7 +156,7 @@ class SeqList<T> {
         return false;
     }
 
-    public void addAll(SeqList<? extends T> list) {
+    void addAll(SeqList<? extends T> list) {
         for (int i = 0; i < list.n; i++)
             this.insert(list.get(i));
     }
