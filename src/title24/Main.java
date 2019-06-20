@@ -1,4 +1,4 @@
-package titlej24;
+package title24;
 
 import java.util.Arrays;
 import java.util.Scanner;
