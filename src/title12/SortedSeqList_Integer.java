@@ -30,6 +30,9 @@ public class SortedSeqList_Integer {
 
         System.out.println(LA);
 
+
+
+
     }
 }
 

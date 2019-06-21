@@ -17,12 +17,14 @@ public class Main {
         SeqList<Integer> list1 = new SeqList<>();
         for (int j = 0; j < i; j++) {
             list1.insert(i, scanner.nextInt());
+           list1.get(j);
         }
 
         int w = scanner.nextInt();
         int e = scanner.nextInt();
         list1.remove(w, e);
         System.out.println(list1.toString());
+
     }
 
 }
@@ -45,6 +47,16 @@ class SeqList<T> extends Object {
             return (T) this.element[i];
         }
         return null;
+    }
+
+    public SeqList(T[] values) {
+        this(values.length);
+
+        for (int i = 0; i < values.length; i++)
+            this.element[i] = values[i];
+        this.n = element.length;
+
+
     }
 
     public void set(int i, T x) {

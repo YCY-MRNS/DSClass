@@ -57,7 +57,6 @@ class HuffmanTree {
 
     HuffmanTree(int[] weights, String charset) {
         this.charset = charset;
-
         int n = weights.length;
         this.huftree = new TriElement[2 * n - 1];
         for (int i = 0; i < n; i++)

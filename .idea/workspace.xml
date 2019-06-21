@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/title25/Main.java" line="13" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="75aeb4ff-8bdf-4d9f-a49b-6eeed58a3472" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/title10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/title25/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title73/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title73/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SeqList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SeqList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList_Integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList_Integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title41/HuffmanTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title41/HuffmanTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title12/SortedSeqList_Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title12/SortedSeqList_Integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title41/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title41/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title77/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title77/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,13 +24,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/title73/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/title10/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="12" lean-forward="true" selection-end-line="78" />
+            <state relative-caret-position="190">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -38,6 +52,8 @@
     <findStrings>
       <find>tos</find>
       <find>(/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/|[ \t]*//.*)</find>
+      <find>tostring</find>
+      <find>set</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -55,9 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/title/Main.java" />
-        <option value="$PROJECT_DIR$/src/title222/Main.java" />
-        <option value="$PROJECT_DIR$/src/title42/BinaryNode.java" />
         <option value="$PROJECT_DIR$/src/title42/BinaryTrees.java" />
         <option value="$PROJECT_DIR$/src/title42/SeqBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/title42/BinaryTreeMain.java" />
@@ -90,7 +103,6 @@
         <option value="$PROJECT_DIR$/src/title24/Main.java" />
         <option value="$PROJECT_DIR$/src/title60/Main.java" />
         <option value="$PROJECT_DIR$/src/title72/Main.java" />
-        <option value="$PROJECT_DIR$/src/title12/SortedSeqList_Integer.java" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/title60/Main2.java" />
@@ -101,11 +113,15 @@
         <option value="$PROJECT_DIR$/src/title43/BinaryTreeMain.java" />
         <option value="$PROJECT_DIR$/src/title43/Main.java" />
         <option value="$PROJECT_DIR$/src/title70/Main.java" />
-        <option value="$PROJECT_DIR$/src/title41/Main.java" />
-        <option value="$PROJECT_DIR$/src/title77/Test.java" />
-        <option value="$PROJECT_DIR$/src/title77/Main.java" />
         <option value="$PROJECT_DIR$/src/title73/Main2.java" />
         <option value="$PROJECT_DIR$/src/title73/Main.java" />
+        <option value="$PROJECT_DIR$/src/title41/Main.java" />
+        <option value="$PROJECT_DIR$/src/title25/Main.java" />
+        <option value="$PROJECT_DIR$/src/title77/Main.java" />
+        <option value="$PROJECT_DIR$/src/title77/Test.java" />
+        <option value="$PROJECT_DIR$/src/title12/SortedSeqList_Integer.java" />
+        <option value="$PROJECT_DIR$/src/title11/Main.java" />
+        <option value="$PROJECT_DIR$/src/title10/Main.java" />
       </list>
     </option>
   </component>
@@ -137,7 +153,14 @@
               <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSClass" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="title73" type="462c0819:PsiDirectoryNode" />
+              <item name="title12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="title12" type="462c0819:PsiDirectoryNode" />
+              <item name="SortedSeqList_Integer.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -152,14 +175,15 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/TrainProject/DSClass/src/title60/Main.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561080087319" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561087642177" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -186,34 +210,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title70.Main" />
-      <module name="DSClassDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="title70.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title41.Main" />
-      <module name="DSClassDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="title41.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="title77.Main" />
       <module name="DSClassDesign" />
       <extension name="coverage">
@@ -226,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title73.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="title10.Main" />
       <module name="DSClassDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="title73.*" />
+          <option name="PATTERN" value="title10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,11 +238,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title73.Main" />
+      <option name="MAIN_CLASS_NAME" value="title25.Main" />
       <module name="DSClassDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="title73.*" />
+          <option name="PATTERN" value="title25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,20 +276,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main2" />
-    </list>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="title77.Test" />
+      <module name="DSClassDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="title77.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +317,7 @@
       <workItem from="1560919220042" duration="19971000" />
       <workItem from="1560991097679" duration="12277000" />
       <workItem from="1561007413359" duration="21104000" />
-      <workItem from="1561077599297" duration="2477000" />
+      <workItem from="1561077599297" duration="9944000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;数据结构&quot;">
       <created>1560865204579</created>
@@ -351,17 +354,24 @@
       <option name="project" value="LOCAL" />
       <updated>1561000696957</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;数据结构2019/6/20&quot;">
+      <created>1561080259217</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561080259217</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112354000" />
+    <option name="totallyTimeSpent" value="119821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.184375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14583333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,8 +380,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294271" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.50185186" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984375" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2851852" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36018518" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -380,7 +390,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32777777" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.6240741" />
       <window_info anchor="right" id="Maven Projects" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -434,18 +444,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/title42/BinaryTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/title30/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <element signature="e#4196#4197#0" expanded="true" />
-            <element signature="e#4252#4253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/title62/Title_62.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -495,31 +493,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/MinSpanTree.java" />
     <entry file="file://$PROJECT_DIR$/src/test/Heap.java" />
     <entry file="file://$PROJECT_DIR$/src/title20/SeqList.java" />
-    <entry file="file://$PROJECT_DIR$/src/title20/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="18" lean-forward="true" selection-end-line="144" />
-          <folding>
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#2392#2393#0" expanded="true" />
-            <element signature="e#2437#2438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title24/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/title60/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -527,13 +500,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title12/SortedSeqList_Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -545,13 +511,6 @@
             <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title11/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -611,20 +570,6 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java" />
-    <entry file="file://$PROJECT_DIR$/src/title41/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title77/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/title70/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -632,13 +577,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title77/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -670,8 +608,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/title73/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="12" lean-forward="true" selection-end-line="78" />
+        <state relative-caret-position="646">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title41/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title24/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title25/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+            <element signature="e#3018#3019#0" expanded="true" />
+            <element signature="e#3069#3070#0" expanded="true" />
+            <element signature="e#2753#2754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title77/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title77/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title20/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title11/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title12/SortedSeqList_Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title10/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
