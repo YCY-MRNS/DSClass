@@ -1,81 +1,79 @@
 package title73;
 
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * @program: DSClass
- * @description: 73:牛的选举
+ * @description: Test
  * @author: ChangYue
- * @create: 2019-06-20 19:15
+ * @create: 2019-06-21 08:40
  */
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        String kn = in.nextLine();
-        String[] knArr = kn.split("\\s+");
-        int k = Integer.parseInt(knArr[0]);
-        int n = Integer.parseInt(knArr[1]);
+        String[] num = in.nextLine().split("\\s+");
+        int N = Integer.parseInt(num[0]);
+        int K = Integer.parseInt(num[1]);
 
-        int[] firstArr = new int[k];
-        int[] secondArr = new int[k];
-        int[] temp = new int[k];
+        List<corw> c = new ArrayList<>(N);
 
-        for (int i = 0; i < k; i++) {
-            String[] num = in.nextLine().split("\\s");
-            firstArr[i] = Integer.parseInt(num[0]);
-            secondArr[i] = Integer.parseInt(num[1]);
-            temp[i] = firstArr[i];
+        for (int i = 0; i < N; i++) {
+            String[] corws = in.nextLine().split("\\s+");
+            c.add(new corw(Integer.parseInt(corws[0]), Integer.parseInt(corws[1]), i + 1));
+        }
+        Collections.sort(c, new corwFirstComparator());
+
+        for (int i = 0; i < (N - K); i++) {
+            c.remove(K);
         }
 
+        Collections.sort(c, new corwSecondComparator());
 
-        quickSort(firstArr);
+        System.out.println(c.get(0).getNum());
 
+        in.close();
+    }
+}
 
-        for (int j = 0; j < temp.length; j++) {
-            for (int i = 0; i < n; i++) {
-                if (temp[j] == firstArr[i]) {
-                    firstArr[i] = j;
-                }
-            }
-        }
+class corw {
 
-        int[] result = new int[n];
-        for (int l = 0; l < n; l++) {
-            result[l] = secondArr[firstArr[l]];
-        }
-        quickSort(result);
+    private int first;
+    private int second;
+    private int num;
 
+    public corw(int first, int second, int num) {
+        this.first = first;
+        this.second = second;
+        this.num = num;
+    }
+
+    public int getFirst() {
+        return first;
     }
 
 
-    private static void quickSort(int[] keys) {
-        quickSort(keys, 0, keys.length - 1);
+    public int getSecond() {
+        return second;
     }
 
-    private static void quickSort(int[] keys, int begin, int end) {
 
-        if (begin >= 0 && begin < keys.length && end >= 0 && end < keys.length && begin < end) {
-            int i = begin, j = end;
-            int vot = keys[i];
-            while (i != j) {
-
-                while (i < j && vot >= keys[j])
-                    j--;
-                if (i < j)
-                    keys[i++] = keys[j];
-
-                while (i < j && keys[i] >= vot)
-                    i++;
-                if (i < j)
-                    keys[j--] = keys[i];
-
-            }
-            keys[i] = vot;
-            quickSort(keys, begin, j - 1);
-            quickSort(keys, i + 1, end);
-        }
-
+    public int getNum() {
+        return num;
     }
-
 
 }
+
+class corwFirstComparator implements Comparator<corw> {
+    @Override
+    public int compare(corw o1, corw o2) {
+        return o2.getFirst() - o1.getFirst();
+    }
+}
+
+class corwSecondComparator implements Comparator<corw> {
+    @Override
+    public int compare(corw o1, corw o2) {
+        return o2.getSecond() - o1.getSecond();
+    }
+}
+

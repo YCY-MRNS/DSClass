@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75aeb4ff-8bdf-4d9f-a49b-6eeed58a3472" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/title73/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title77/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title77/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SeqList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SeqList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title41/HuffmanTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title41/HuffmanTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title41/TriElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title41/TriElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title72/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title72/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title41/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title41/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title43/BinaryNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title43/BinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title43/BinaryTreeMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title43/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title43/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title43/SeqBinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title70/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title70/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title73/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title73/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,49 +13,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1686732458">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="57" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="57" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="4" />
-          <entry key="java" value="2494" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2494" />
-          <entry key="PLAIN_TEXT" value="4" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/title73/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-              <folding>
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1165#1166#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="684">
+              <caret line="36" column="12" lean-forward="true" selection-end-line="78" />
             </state>
           </provider>
         </entry>
@@ -104,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/title22/SortedSinglyList.java" />
         <option value="$PROJECT_DIR$/src/title/Main.java" />
         <option value="$PROJECT_DIR$/src/title222/Main.java" />
         <option value="$PROJECT_DIR$/src/title42/BinaryNode.java" />
@@ -154,15 +104,10 @@
         <option value="$PROJECT_DIR$/src/title41/Main.java" />
         <option value="$PROJECT_DIR$/src/title77/Test.java" />
         <option value="$PROJECT_DIR$/src/title77/Main.java" />
+        <option value="$PROJECT_DIR$/src/title73/Main2.java" />
         <option value="$PROJECT_DIR$/src/title73/Main.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="541" />
@@ -188,6 +133,12 @@
               <item name="DSClass" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="title73" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -201,7 +152,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/TrainProject/DSClass/src/title60/Main.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561041102076" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561080087319" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -235,26 +186,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="title70.Main" />
       <module name="DSClassDesign" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="title70.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title73.Main" />
-      <module name="DSClassDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="title73.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,6 +227,32 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="title73.Main" />
+      <module name="DSClassDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="title73.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="title73.Main" />
+      <module name="DSClassDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="title73.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="title43.Main" />
       <module name="DSClassDesign" />
       <extension name="coverage">
@@ -315,19 +279,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryTreeMain" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.BinaryTreeMain" />
       </list>
     </recent_temporary>
   </component>
@@ -350,6 +314,7 @@
       <workItem from="1560919220042" duration="19971000" />
       <workItem from="1560991097679" duration="12277000" />
       <workItem from="1561007413359" duration="21104000" />
+      <workItem from="1561077599297" duration="2477000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;数据结构&quot;">
       <created>1560865204579</created>
@@ -390,13 +355,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109877000" />
+    <option name="totallyTimeSpent" value="112354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18448023" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.184375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,7 +370,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294271" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37760416" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50185186" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984375" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,9 +396,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;数据结构&quot;" />
@@ -636,41 +598,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="733" column="16" selection-start-line="733" selection-start-column="16" selection-end-line="733" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title43/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title43/SeqBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title43/BinaryNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" lean-forward="true" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title43/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="51" column="24" lean-forward="true" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/title43/SeqBinaryTree.java" />
+    <entry file="file://$PROJECT_DIR$/src/title43/BinaryNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/title43/BinaryTree.java" />
     <entry file="file://$PROJECT_DIR$/src/title43/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -678,20 +609,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="614" selection-start-line="614" selection-end-line="614" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java" />
     <entry file="file://$PROJECT_DIR$/src/title41/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -730,24 +649,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/DualPivotQuicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47841">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="143" column="20" lean-forward="true" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
-          <folding>
-            <element signature="e#5027#5028#0" expanded="true" />
-            <element signature="e#5098#5099#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/DualPivotQuicksort.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java" />
     <entry file="file://$PROJECT_DIR$/src/title52/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -760,12 +663,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/title73/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title73/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="12" lean-forward="true" selection-end-line="78" />
         </state>
       </provider>
     </entry>
