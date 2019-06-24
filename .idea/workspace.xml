@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75aeb4ff-8bdf-4d9f-a49b-6eeed58a3472" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/document/十套数据结构试题.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/数据结构-作业-期末.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/数据结构-期末-考试.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reporter/数据结构课程设计报告-参考模板.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reporter/数据结构课程设计报告-封面要求.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reporter/数据结构课程设计报告-撰写要求.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/AbstractGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/Addible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/AdjListGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/G3u.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/G4d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/G5d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/LinkedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/LinkedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/MatrixGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/PolySinglyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/SeqList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/SinglyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/SortedSinglyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/Triple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/graphic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title11/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/title10/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="75" column="11" lean-forward="true" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+            <state relative-caret-position="513">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
                 <element signature="e#4508#4509#0" expanded="true" />
               </folding>
@@ -167,20 +140,17 @@
             <path>
               <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSClass" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="document" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSClass" type="462c0819:PsiDirectoryNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSClass" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="title10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSClass" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="title10" type="462c0819:PsiDirectoryNode" />
-              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -194,7 +164,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/TrainProject/DSClass/src/title60/Main.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561349158465" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561349345700" />
     <property name="last_opened_file_path" value="G:/数据结构/ds" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -353,7 +323,7 @@
       <workItem from="1561007413359" duration="21104000" />
       <workItem from="1561077599297" duration="9944000" />
       <workItem from="1561336694702" duration="19000" />
-      <workItem from="1561336762228" duration="9737000" />
+      <workItem from="1561336762228" duration="9844000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;数据结构&quot;">
       <created>1560865204579</created>
@@ -397,17 +367,24 @@
       <option name="project" value="LOCAL" />
       <updated>1561080259217</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;数据结构2019/6/24&quot;">
+      <created>1561349210064</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561349210064</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129577000" />
+    <option name="totallyTimeSpent" value="129684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.146875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.146875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,7 +424,8 @@
     <MESSAGE value="&quot;数据结构&quot;" />
     <MESSAGE value="&quot;数据结构2019/6/19&quot;" />
     <MESSAGE value="&quot;数据结构2019/6/20&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;数据结构2019/6/20&quot;" />
+    <MESSAGE value="&quot;数据结构2019/6/24&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;数据结构2019/6/24&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -816,8 +794,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/title10/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="75" column="11" lean-forward="true" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+        <state relative-caret-position="513">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="e#4508#4509#0" expanded="true" />
           </folding>

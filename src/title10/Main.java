@@ -26,7 +26,6 @@ public class Main {
             l2.insert(in.nextInt());
         }
 
-
         l1.addAll(l2);
 
         int temp;
