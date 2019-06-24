@@ -83,7 +83,6 @@ class SeqList<T> extends Object {
                 for (int j = 0; j < i; j++) {
                     this.element[j] = source[j];
                 }
-                ;
             }
             for (int j = this.n - 1; j >= i; j--) {
                 this.element[j + 1] = source[j];
@@ -109,7 +108,6 @@ class SeqList<T> extends Object {
 
     private T remove(int i) {
         if (this.n > 0 && i >= 0 && i <= this.n) {
-            @SuppressWarnings("unchecked")
             T old = (T) this.element[i];
 
             for (int j = i; j < this.n - 1; j++) {

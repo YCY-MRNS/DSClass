@@ -5,64 +5,37 @@ import java.util.Scanner;
 public class SortedSeqList_Integer {
     public static void main(String args[]) {
 
+
         Scanner in = new Scanner(System.in);
+        int aLen = in.nextInt();
+        int bLen = in.nextInt();
 
-        String arrLenStr = in.nextLine();
-        String[] arrLen = arrLenStr.split("\\s+");
+        SeqList<Integer> LA = new SeqList<>(aLen);
+        SeqList<Integer> LB = new SeqList<>(bLen);
 
-        SortedSeqList<Integer> LA = new SortedSeqList<>(Integer.parseInt(arrLen[0]));
-        SortedSeqList<Integer> LB = new SortedSeqList<>(Integer.parseInt(arrLen[1]));
-
-        String dataForLAStr = in.nextLine();
-        String[] dataForLA = dataForLAStr.split("\\s+");
-        for (String a : dataForLA) {
-            LA.insert(Integer.parseInt(a));
+        for (int i = 0; i < aLen; i++) {
+            LA.insert(in.nextInt());
         }
 
-        String dataForLBStr = in.nextLine();
-        String[] dataForLB = dataForLBStr.split("\\s+");
-        for (String b : dataForLB) {
-            LB.insert(Integer.parseInt(b));
+        for (int i = 0; i < bLen; i++) {
+            LB.insert(in.nextInt());
         }
 
         LA.removeAll(LB);
         LA.addAll(LB);
 
-        System.out.println(LA);
-
-
-
-
-    }
-}
-
-class SortedSeqList<T extends Comparable<? super T>> extends SeqList<T> {
-
-    public SortedSeqList(int length) {
-        super(length);
-    }
-
-    public int insert(int i, T x) {
-        throw new java.lang.UnsupportedOperationException("insert(int i, T x)");
-    }
-
-    public int search(T key) {
-        for (int i = 0; i < this.n && key.compareTo(this.get(i)) >= 0; i++) {
-            if (key.compareTo(this.get(i)) == 0)
-                return i;
+        int temp;
+        for (int i = 0; i < LA.size(); i++) {
+            for (int j = 0; j < LA.size(); j++) {
+                if (LA.get(i) < LA.get(j)) {
+                    temp = LA.get(j);
+                    LA.set(j, LA.get(i));
+                    LA.set(i, temp);
+                }
+            }
         }
-        return -1;
-    }
 
-    public int insert(T x) {
-        int i = 0;
-        if (this.isEmpty() || x.compareTo(this.get(this.n - 1)) > 0)
-            i = this.n;
-        else
-            while (i < this.n && x.compareTo(this.get(i)) > 0)
-                i++;
-        super.insert(i, x);
-        return i;
+        System.out.println(LA);
     }
 }
 
@@ -87,6 +60,14 @@ class SeqList<T> {
         if (i >= 0 && i < this.n)
             return (T) this.element[i];
         return null;
+    }
+
+    public void set(int i, T x) {
+        if (x == null)
+            throw new NullPointerException("x==null");
+        if (i >= 0 && i < this.n)
+            this.element[i] = x;
+        else throw new java.lang.IndexOutOfBoundsException(i + "");
     }
 
     public String toString() {
