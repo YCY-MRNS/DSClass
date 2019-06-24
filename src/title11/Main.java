@@ -17,7 +17,7 @@ public class Main {
         SeqList<Integer> list1 = new SeqList<>();
         for (int j = 0; j < i; j++) {
             list1.insert(i, scanner.nextInt());
-           list1.get(j);
+            list1.get(j);
         }
 
         int w = scanner.nextInt();
