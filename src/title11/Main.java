@@ -4,6 +4,9 @@ package title11;
  * @program: DSClass-master
  * @description:
  * @author: ChangYue
+ * 10
+ * 5 1 9 10 67 12 8 33 6 2
+ * 3 10
  * @create: 2019-06-19 11:39
  */
 
@@ -15,21 +18,17 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int i = scanner.nextInt();
         SeqList<Integer> list1 = new SeqList<>();
-        for (int j = 0; j < i; j++) {
+        for (int j = 0; j < i; j++)
             list1.insert(i, scanner.nextInt());
-            list1.get(j);
-        }
 
         int w = scanner.nextInt();
         int e = scanner.nextInt();
         list1.remove(w, e);
         System.out.println(list1.toString());
-
     }
-
 }
 
-class SeqList<T> extends Object {
+class SeqList<T> {
     protected Object[] element;
     protected int n;
 
@@ -51,12 +50,9 @@ class SeqList<T> extends Object {
 
     public SeqList(T[] values) {
         this(values.length);
-
         for (int i = 0; i < values.length; i++)
             this.element[i] = values[i];
         this.n = element.length;
-
-
     }
 
     public void set(int i, T x) {
@@ -68,30 +64,21 @@ class SeqList<T> extends Object {
     }
 
     public int insert(int i, T x) {
-        boolean bs = true;
-        for (int j = 0; j < element.length; j++) {
-            if (x == element[j]) {
-                bs = false;
-            }
+        if (x == null)
+            throw new NullPointerException("x==null");
+        if (i < 0) i = 0;
+        if (i > this.n) i = this.n;
+        Object[] source = this.element;
+        if (this.n == element.length) {
+            this.element = new Object[source.length * 2];
+            for (int j = 0; j < i; j++)
+                this.element[j] = source[j];
         }
-        if (bs) {
-            if (i < 0) i = 0;
-            if (i > this.n) i = this.n;
-            Object[] source = this.element;
-            if (this.n == element.length) {
-                this.element = new Object[source.length * 2];
-                for (int j = 0; j < i; j++) {
-                    this.element[j] = source[j];
-                }
-            }
-            for (int j = this.n - 1; j >= i; j--) {
-                this.element[j + 1] = source[j];
-            }
-            this.element[i] = x;
-            this.n++;
-            return i;
-        }
-        return 0;
+        for (int j = this.n - 1; j >= i; j--)
+            this.element[j + 1] = source[j];
+        this.element[i] = x;
+        this.n++;
+        return i;
     }
 
     void remove(int i, int k) {
@@ -106,18 +93,14 @@ class SeqList<T> extends Object {
         }
     }
 
-    private T remove(int i) {
+    private void remove(int i) {
         if (this.n > 0 && i >= 0 && i <= this.n) {
-            T old = (T) this.element[i];
-
             for (int j = i; j < this.n - 1; j++) {
                 this.element[j] = this.element[j + 1];
             }
             this.element[this.n - 1] = null;
             this.n--;
-            return old;
         }
-        return null;
     }
 
     public String toString() {

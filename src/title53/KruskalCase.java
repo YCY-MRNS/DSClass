@@ -30,13 +30,11 @@ public class KruskalCase {
 
 
         KruskalCase kruskalCase = new KruskalCase(vertexs, weight);
-
         kruskalCase.kruskal();
-
     }
 
 
-    KruskalCase(char[] vertexs, int[][] matrix) {
+    private KruskalCase(char[] vertexs, int[][] matrix) {
 
         int vlen = vertexs.length;
 
@@ -61,31 +59,22 @@ public class KruskalCase {
                 }
             }
         }
-
     }
 
-    void kruskal() {
+    private void kruskal() {
         int index = 0;
         int[] ends = new int[edgeNum];
 
         EData[] rets = new EData[edgeNum];
-
-
         EData[] edges = getEdges();
-
-
         sortEdges(edges);
 
 
         for (int i = 0; i < edgeNum; i++) {
 
             int p1 = getPosition(edges[i].start);
-
             int p2 = getPosition(edges[i].end);
-
-
             int m = getEnd(ends, p1);
-
             int n = getEnd(ends, p2);
 
             if (m != n) {
@@ -100,7 +89,6 @@ public class KruskalCase {
         }
     }
 
-
     private void sortEdges(EData[] edges) {
         for (int i = 0; i < edges.length - 1; i++) {
             for (int j = 0; j < edges.length - 1 - i; j++) {
@@ -113,7 +101,6 @@ public class KruskalCase {
         }
     }
 
-
     private int getPosition(char ch) {
         for (int i = 0; i < vertexs.length; i++) {
             if (vertexs[i] == ch) {
@@ -123,7 +110,6 @@ public class KruskalCase {
 
         return -1;
     }
-
 
     private EData[] getEdges() {
         int index = 0;
@@ -138,7 +124,6 @@ public class KruskalCase {
         return edges;
     }
 
-
     private int getEnd(int[] ends, int i) {
         while (ends[i] != 0) {
             i = ends[i];
@@ -148,19 +133,16 @@ public class KruskalCase {
 
 }
 
-
 class EData {
     char start;
     char end;
     int weight;
-
 
     public EData(char start, char end, int weight) {
         this.start = start;
         this.end = end;
         this.weight = weight;
     }
-
 
     @Override
     public String toString() {

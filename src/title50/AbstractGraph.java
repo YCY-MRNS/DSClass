@@ -72,7 +72,7 @@ public abstract class AbstractGraph<T>                     //抽象图类，T表
     private void depthfs(int i, boolean[] visited) {
         System.out.print(this.getVertex(i) + " ");           //访问顶点vi
         visited[i] = true;                                 //设置访问标记
-        for (int j = this.next(i, -1); j != -1; j = this.next(i, j))//j依次获得vi的所有邻接顶点序号
+        for (int j = this.next(i, visited.length); j != -1; j = this.next(i, j))//j依次获得vi的所有邻接顶点序号
             if (!visited[j])                                //若邻接顶点vj未被访问
                 depthfs(j, visited);                       //从vj出发的深度优先搜索遍历，递归调用
     }
@@ -104,7 +104,7 @@ public abstract class AbstractGraph<T>                     //抽象图类，T表
         while (!que.isEmpty())                             //当队列不空时循环
         {
             i = que.poll();                                //出队，自动转换成int;
-            for (int j = next(i, -1); j != -1; j = next(i, j))     //j依次获得vi的所有邻接顶点
+            for (int j = next(i, visited.length); j != -1; j = next(i, j))     //j依次获得vi的所有邻接顶点
                 if (!visited[j])                           //若顶点vj未访问过
                 {
                     System.out.print(this.getVertex(j) + " ");//访问顶点vj

@@ -64,7 +64,6 @@ class SeqList<T> {
             this.element[i] = values[i];
         this.n = element.length;
 
-
     }
 
 

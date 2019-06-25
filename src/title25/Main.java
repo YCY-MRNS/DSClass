@@ -102,7 +102,6 @@ class SinglyList<T> {
         return i;
     }
 
-
     public Node<T> insert(int i, T x) {
         if (x == null)
             throw new NullPointerException("x==null");

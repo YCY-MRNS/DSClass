@@ -7,20 +7,86 @@ import java.util.Scanner;
  * @program: DSClass-master
  * @description:
  * @author: ChangYue
+ * @TestData 9
+ * A 2 B 12 I 25
+ * B 3 C 10 H 40 I 8
+ * C 2 D 18 G 55
+ * D 1 E 44
+ * E 2 F 60 G 38
+ * F 0
+ * G 1 H 35
+ * H 1 I 35
+ * 3
+ * A 2 B 10 C 40
+ * B 1 C 20
+ * 0
  * @create: 2019-06-19 10:38
  */
 public class Main {
-    private static String[] str(int k) {
-        String[] str1 = new String[k];
-        char a = 'A';
-        for (int i = 0; i < k; i++) {
-            str1[i] = String.valueOf(a);
-            a++;
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int villages = Integer.valueOf(in.nextLine());
+        while (villages != 0) {
+            int count = 0;
+
+            String[] villagesVertex = getVillagesVertex(villages);
+            Triple[] edges1 = new Triple[74];
+
+            for (int i = 0; i < villages - 1; i++) {
+                String villagesAndValuesStr = in.nextLine();
+                String[] villagesAndValues = villagesAndValuesStr.split("\\s+");
+
+                int currentVertex = Integer.valueOf(villagesAndValues[1]);
+
+                for (int j = 0, q = 2; j < currentVertex; j++, q += 2) {
+                    if (getIndex(villagesAndValues[2], villagesVertex) != -1) {
+
+                        int value = Integer.valueOf(villagesAndValues[q + 1]);
+                        int c = getIndex(villagesAndValues[q], villagesVertex);
+
+                        edges1[count++] = new Triple(i, c, value);
+
+                    }
+                }
+            }
+
+            Triple[] edges = new Triple[count];
+            System.arraycopy(edges1, 0, edges, 0, count);
+
+            MinSpanTree mst = new MinSpanTree(villages, edges, new TripleComparator());
+
+            System.out.println(mst.getMinvalue());
+
+            villages = Integer.valueOf(in.nextLine());
+
         }
-        return str1;
+        in.close();
     }
 
-    private static int get(String m, String n[]) {
+    /**
+     * 根据k获得对应村落的顶点数
+     *
+     * @param k 村落数
+     * @return 对应村落数的集合
+     */
+    private static String[] getVillagesVertex(int k) {
+        String[] villagesVertex = new String[k];
+        char a = 'A';
+        for (int i = 0; i < k; i++) {
+            villagesVertex[i] = String.valueOf(a++);
+        }
+        return villagesVertex;
+    }
+
+    /**
+     * 获得对应村落数的集合的index
+     *
+     * @param m 查询的值
+     * @param n 集合
+     * @return index
+     */
+    private static int getIndex(String m, String[] n) {
         for (int i = 0; i < n.length; i++) {
             if (m.equals(n[i])) {
                 return i;
@@ -28,37 +94,31 @@ public class Main {
         }
         return -1;
     }
+}
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int k = Integer.valueOf(scanner.nextLine());
-        do {
-            int count = 0;
-            String[] str1 = str(k);
-            Triple[] edges1 = new Triple[74];
-            for (int i = 0; i < k - 1; i++) {
-                String str3 = scanner.nextLine();
-                String[] str2 = str3.split("\\s+");
-                int w = Integer.valueOf(str2[1]);
-                int q = 2;
-                for (int j = 0; j < w; j++) {
-                    if (get(str2[2], str1) != -1) {
-                        int value = Integer.valueOf(str2[q + 1]);
-                        int c = get(str2[q], str1);
-                        edges1[count] = new Triple(i, c, value);
-                        count++;
-                        q += 2;
-                    }
-                }
+class MinSpanTree {
+    private Triple[] mst;
+
+    MinSpanTree(int n, Triple[] edges, Comparator<Triple> cmpr) {
+        this.mst = new Triple[n - 1];
+        Heap<Triple> minheap = new Heap<Triple>(true, edges, cmpr);
+        UnionFindSet ufset = new UnionFindSet(n);
+        int i = 0;
+        for (int j = 0; j < edges.length; j++) {
+            Triple minedge = minheap.removeRoot();
+            if (ufset.union(minedge.row, minedge.column)) {
+                this.mst[i++] = minedge;
             }
-            Triple[] edges = new Triple[count];
-            System.arraycopy(edges1, 0, edges, 0, count);
-            MinspanTree mstree = new MinspanTree(k, edges, new TripleComparator());
-            System.out.println(mstree.dj());
-            k = Integer.valueOf(scanner.nextLine());
-        } while (k != 0);
+        }
     }
 
+    int getMinvalue() {
+        int totalValue = 0;
+        for (Triple triple : mst) {
+            totalValue += triple.value;
+        }
+        return totalValue;
+    }
 }
 
 class Heap<T> {
@@ -68,7 +128,7 @@ class Heap<T> {
 
     private Heap(boolean minheap, Comparator<T> cmpr) {
         this.minheap = minheap;
-        this.heap = new SeqList<T>();
+        this.heap = new SeqList<>();
         this.cmpr = cmpr;
     }
 
@@ -133,38 +193,14 @@ class Heap<T> {
         T x = (T) this.heap.get(0);
         this.heap.set(0, this.heap.get(this.heap.size() - 1));
         this.heap.remove(this.heap.size() - 1);
-        if (this.heap.size() > 1)
+        if (this.heap.size() > 1) {
             sift(0);
+        }
         return x;
     }
 }
 
-class MinspanTree {
-    private Triple[] mst;
-
-    MinspanTree(int n, Triple[] edges, Comparator<Triple> cmpr) {
-        this.mst = new Triple[n - 1];
-        Heap<Triple> minheap = new Heap<Triple>(true, edges, cmpr);
-        UnionFindSet ufset = new UnionFindSet(n);
-        int i = 0;
-        for (int j = 0; j < edges.length; j++) {
-            Triple minedge = minheap.removeRoot();
-            if (ufset.union(minedge.row, minedge.column)) {
-                this.mst[i++] = minedge;
-            }
-        }
-    }
-
-    int dj() {
-        int j = 0;
-        for (int i = 0; i < mst.length; i++) {
-            j += mst[i].value;
-        }
-        return j;
-    }
-}
-
-class SeqList<T> extends Object {
+class SeqList<T> {
 
     private Object[] element;
     private int n;
@@ -176,12 +212,6 @@ class SeqList<T> extends Object {
 
     SeqList() {
         this(64);
-    }
-
-    public SeqList(T[] values) {
-        this(values.length);
-        System.arraycopy(values, 0, this.element, 0, values.length);
-        this.n = element.length;
     }
 
     private int insert(int i, T x) {
@@ -249,6 +279,14 @@ class Triple {
         } else throw new IllegalArgumentException("s=" + row + "s=" + column);
     }
 
+    @Override
+    public String toString() {
+        return "Triple{" +
+                "row=" + row +
+                ", column=" + column +
+                ", value=" + value +
+                '}';
+    }
 }
 
 class TripleComparator implements java.util.Comparator<Triple> {
