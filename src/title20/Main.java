@@ -8,7 +8,6 @@ public class Main {
     public Main(int number, int start, int distance) {
 
         SeqList<Integer> list = new SeqList<>(number);
-
         for (int i = 1; i < number + 1; i++)
             list.insert(i);
         int i = start;

@@ -2,9 +2,15 @@ package title12;
 
 import java.util.Scanner;
 
-public class SortedSeqList_Integer {
+/**
+ * @Description:
+ * @Param:12:非递减有序集合合并
+ * @return:
+ * @Author: YuanChangYue
+ * @date:
+ */
+public class Main {
     public static void main(String args[]) {
-
 
         Scanner in = new Scanner(System.in);
         int aLen = in.nextInt();
@@ -34,7 +40,7 @@ public class SortedSeqList_Integer {
                 }
             }
         }
-
+        System.out.println(LA.size());
         System.out.println(LA);
     }
 }
@@ -151,7 +157,6 @@ class SeqList<T> {
             old = this.remove(list.get(i));
         return old != null;
     }
-
 }
 
 

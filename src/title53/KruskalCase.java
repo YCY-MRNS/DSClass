@@ -10,14 +10,13 @@ public class KruskalCase {
 
 
     public static void main(String[] args) {
-        char[] vertexs = {'1', '2', '3', '4', '5', '6'};
-
 
         Scanner in = new Scanner(System.in);
         String conditionStr = in.nextLine();
         String[] cond = conditionStr.split("\\s+");
         int length = Integer.parseInt(cond[0]);
 
+        char[] vertexes = getTotalVertex(length);
         int[][] weight = new int[length][length];
 
         for (int i = 0; i < length; i++) {
@@ -28,9 +27,22 @@ public class KruskalCase {
             }
         }
 
-
-        KruskalCase kruskalCase = new KruskalCase(vertexs, weight);
+        KruskalCase kruskalCase = new KruskalCase(vertexes, weight);
         kruskalCase.kruskal();
+    }
+
+    /**
+     * 获得顶点
+     *
+     * @param VertexLen 顶点数
+     * @return 顶点集合
+     */
+    private static char[] getTotalVertex(int VertexLen) {
+        char[] v = new char[VertexLen];
+        for (int i = 0; i < VertexLen; i++) {
+            v[i] = (char) (i + 49);
+        }
+        return v;
     }
 
 
@@ -38,12 +50,10 @@ public class KruskalCase {
 
         int vlen = vertexs.length;
 
-
         this.vertexs = new char[vlen];
         for (int i = 0; i < vertexs.length; i++) {
             this.vertexs[i] = vertexs[i];
         }
-
 
         this.matrix = new int[vlen][vlen];
         for (int i = 0; i < vlen; i++) {
@@ -64,11 +74,11 @@ public class KruskalCase {
     private void kruskal() {
         int index = 0;
         int[] ends = new int[edgeNum];
-
+        int values = 0;
         EData[] rets = new EData[edgeNum];
         EData[] edges = getEdges();
-        sortEdges(edges);
 
+        sortEdges(edges);
 
         for (int i = 0; i < edgeNum; i++) {
 
@@ -80,13 +90,14 @@ public class KruskalCase {
             if (m != n) {
                 ends[m] = n;
                 rets[index++] = edges[i];
+                values += edges[i].weight;
             }
         }
 
-
         for (int i = 0; i < index; i++) {
-            System.out.print(rets[i] + " ");
+            System.out.print(rets[i]);
         }
+
     }
 
     private void sortEdges(EData[] edges) {
@@ -107,7 +118,6 @@ public class KruskalCase {
                 return i;
             }
         }
-
         return -1;
     }
 
@@ -138,7 +148,7 @@ class EData {
     char end;
     int weight;
 
-    public EData(char start, char end, int weight) {
+    EData(char start, char end, int weight) {
         this.start = start;
         this.end = end;
         this.weight = weight;
@@ -146,7 +156,7 @@ class EData {
 
     @Override
     public String toString() {
-        return start + " " + end;
+        return start + " " + end + " ";
     }
 
 }

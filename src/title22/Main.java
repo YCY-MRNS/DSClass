@@ -26,6 +26,7 @@ public class Main {
             man = new Man(manStr[0], Integer.parseInt(manStr[1]));
             men.insert(man);
         }
+        in.close();
     }
 }
 
@@ -53,12 +54,12 @@ class Man implements Comparable<Man> {
     private String name;
     private int age;
 
-    public Man(String name, int age) {
+    Man(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    public int getAge() {
+    int getAge() {
         return age;
     }
 
@@ -76,7 +77,6 @@ class Man implements Comparable<Man> {
 
 class SinglyList<T> {
     public Node<T> head;
-
 
     public SinglyList() {
         this.head = new Node<T>();
@@ -112,7 +112,6 @@ class SinglyList<T> {
         return i;
     }
 
-
     public Node<T> insert(int i, T x) {
         if (x == null)
             throw new NullPointerException("x==null");
@@ -134,17 +133,15 @@ class SinglyList<T> {
         if (i >= 0 && front.next != null) {
             T old = front.next.data;
             front.next = front.next.next;
-
             return old;
         }
         return null;
     }
-
 }
 
-
 class SortedSinglyList<T extends Comparable<? super T>> extends SinglyList<T> {
-    public SortedSinglyList() {
+
+    SortedSinglyList() {
         super();
     }
 

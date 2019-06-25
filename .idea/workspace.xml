@@ -2,26 +2,39 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/title25/Main.java" line="13" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/title12/Main.java" line="69" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75aeb4ff-8bdf-4d9f-a49b-6eeed58a3472" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title50/Main50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SeqList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SeqList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList_Integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList_Integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList_Integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Man.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/SinglyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/SinglyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/SortedSinglyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/SortedSinglyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title30/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title30/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title30/SeqList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title30/SeqList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title30/SeqStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title30/SeqStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title30/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title30/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title41/HuffmanTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title41/HuffmanTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title41/TriElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title41/TriElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title42/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title42/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title61/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title61/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title72/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title72/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reporter/数据结构课程设计报告-参考模板.doc" beforeDir="false" afterPath="$PROJECT_DIR$/reporter/数据结构课程设计报告-参考模板.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title11/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title25/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title25/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title50/AbstractGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title50/AbstractGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title52/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title52/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title12/SortedSeqList_Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title12/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title20/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title20/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title22/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title22/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title30/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title30/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title32/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title32/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title32/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title32/QueueEncoded.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title32/SeqQueue.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/title53/KruskalCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title53/KruskalCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title72/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title72/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,16 +46,53 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1686732458">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="4" />
+          <entry key="java" value="801" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="801" />
+          <entry key="PLAIN_TEXT" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="SeqList" value="1" />
+          <entry key="SinglyList" value="1" />
+          <entry key="java" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="14" />
+          <entry key="UML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="DSClass" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/title53/KruskalCase.java">
+        <entry file="file://$PROJECT_DIR$/src/title11/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+            <state relative-caret-position="281">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
@@ -82,13 +132,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/UnionFindSet.java" />
-        <option value="$PROJECT_DIR$/src/test/Triple.java" />
-        <option value="$PROJECT_DIR$/src/test/TripleComparator.java" />
-        <option value="$PROJECT_DIR$/src/test/MinSpanTree.java" />
         <option value="$PROJECT_DIR$/src/test/Heap.java" />
         <option value="$PROJECT_DIR$/src/title20/SeqList.java" />
-        <option value="$PROJECT_DIR$/src/title20/Main.java" />
         <option value="$PROJECT_DIR$/src/titlej24/Main.java" />
         <option value="$PROJECT_DIR$/src/title24/Main.java" />
         <option value="$PROJECT_DIR$/src/title60/Main.java" />
@@ -133,8 +178,19 @@
         <option value="$PROJECT_DIR$/src/title11/Main.java" />
         <option value="$PROJECT_DIR$/src/title52/Main.java" />
         <option value="$PROJECT_DIR$/src/title53/KruskalCase.java" />
+        <option value="$PROJECT_DIR$/src/title20/Main.java" />
+        <option value="$PROJECT_DIR$/src/title30/Main.java" />
+        <option value="$PROJECT_DIR$/src/title12/Main.java" />
+        <option value="$PROJECT_DIR$/src/title22/Main.java" />
+        <option value="$PROJECT_DIR$/src/title32/Main.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1366" />
@@ -146,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,12 +215,24 @@
               <item name="DSClass" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="title11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="title11" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,14 +240,14 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/TrainProject/DSClass/src/title60/Main.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561435603952" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561476578987" />
     <property name="last_opened_file_path" value="G:/数据结构/ds" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
@@ -207,7 +276,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (4)">
+    <configuration name="KruskalCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="title53.KruskalCase" />
+      <module name="DSClassDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="title53.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="title11.Main" />
       <module name="DSClassDesign" />
@@ -222,11 +304,37 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title10.Main" />
+      <option name="MAIN_CLASS_NAME" value="title12.Main" />
       <module name="DSClassDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="title10.*" />
+          <option name="PATTERN" value="title12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="title22.Main" />
+      <module name="DSClassDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="title22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="title32.Main" />
+      <module name="DSClassDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="title32.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,33 +343,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title52.Main" />
-      <module name="DSClassDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="title52.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title50.Main50" />
-      <module name="DSClassDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="title50.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortedSeqList_Integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title12.SortedSeqList_Integer" />
+      <option name="MAIN_CLASS_NAME" value="title12.Main" />
       <module name="DSClassDesign" />
       <extension name="coverage">
         <pattern>
@@ -274,19 +356,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.SortedSeqList_Integer" />
-      <item itemvalue="Application.Main50" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.KruskalCase" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main50" />
-        <item itemvalue="Application.SortedSeqList_Integer" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.KruskalCase" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -316,6 +398,8 @@
       <workItem from="1561423468230" duration="28000" />
       <workItem from="1561423552501" duration="4599000" />
       <workItem from="1561428186772" duration="7353000" />
+      <workItem from="1561448771639" duration="3889000" />
+      <workItem from="1561454354125" duration="11531000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;数据结构&quot;">
       <created>1560865204579</created>
@@ -370,13 +454,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145543000" />
+    <option name="totallyTimeSpent" value="160963000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17083333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16617863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,7 +469,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294271" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36296296" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47395834" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,12 +479,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32777777" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3268229" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.6240741" />
       <window_info anchor="right" id="Maven Projects" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.234375" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.23426062" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -445,6 +529,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;数据结构&quot;" />
     <MESSAGE value="&quot;数据结构2019/6/19&quot;" />
@@ -481,44 +568,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/title52/Main.java</url>
-          <line>45</line>
+          <line>110</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/title52/Main.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title52/Main.java</url>
-          <line>39</line>
+          <line>106</line>
           <properties />
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title52/Main.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/title43/SeqBinaryTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/title43/BinaryNode.java" />
-    <entry file="file://$PROJECT_DIR$/src/title43/BinaryTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/title43/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/DualPivotQuicksort.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java" />
@@ -533,9 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,17 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title20/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,9 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,9 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,20 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1231">
           <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title12/SortedSeqList_Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="95" column="17" lean-forward="true" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title11/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="79" column="17" selection-end-line="113" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -812,8 +841,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/title53/KruskalCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="399">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title20/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/title12.SeqList">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>title12.SeqList</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">title12.SeqList</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="44.5" y="15.0" />
+          <SelectedNodes>
+            <node>title12.SeqList</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title30/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title12/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="45" column="1" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/title22.SinglyList">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>title22.SinglyList</OriginalElement>
+          <nodes>
+            <node x="" y="">title22.SinglyList</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="50.5" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title22/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2657">
+          <caret line="157" column="39" lean-forward="true" selection-start-line="157" selection-start-column="39" selection-end-line="157" selection-end-column="39" />
+          <folding>
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title32/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-718">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title11/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
