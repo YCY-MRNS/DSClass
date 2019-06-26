@@ -7,6 +7,7 @@ public class KruskalCase {
     private int edgeNum;
     private char[] vertexs;
     private int[][] matrix;
+    public int totalValue = 0;
 
 
     public static void main(String[] args) {
@@ -22,13 +23,14 @@ public class KruskalCase {
         for (int i = 0; i < length; i++) {
             String lineStr = in.nextLine();
             String[] line = lineStr.split("\\s+");
-            for (int j = 0; j < line.length; j++) {
-                weight[i][j] = Integer.parseInt(line[j]);
+            for (int k = 0; k < line.length; k++) {
+                weight[i][k] = Integer.parseInt(line[k]);
             }
         }
 
         KruskalCase kruskalCase = new KruskalCase(vertexes, weight);
         kruskalCase.kruskal();
+
     }
 
     /**
@@ -46,7 +48,13 @@ public class KruskalCase {
     }
 
 
-    private KruskalCase(char[] vertexs, int[][] matrix) {
+    /**
+     * 构造方法
+     *
+     * @param vertexs 顶点
+     * @param matrix  领接矩阵
+     */
+    public KruskalCase(char[] vertexs, int[][] matrix) {
 
         int vlen = vertexs.length;
 
@@ -71,7 +79,7 @@ public class KruskalCase {
         }
     }
 
-    private void kruskal() {
+    public void kruskal() {
         int index = 0;
         int[] ends = new int[edgeNum];
         int values = 0;
@@ -94,12 +102,22 @@ public class KruskalCase {
             }
         }
 
+        this.totalValue = values;
+
+        //输出顶点
         for (int i = 0; i < index; i++) {
             System.out.print(rets[i]);
         }
 
+        System.out.println(values);
+
     }
 
+    /**
+     * 排序
+     *
+     * @param edges
+     */
     private void sortEdges(EData[] edges) {
         for (int i = 0; i < edges.length - 1; i++) {
             for (int j = 0; j < edges.length - 1 - i; j++) {
@@ -111,6 +129,7 @@ public class KruskalCase {
             }
         }
     }
+
 
     private int getPosition(char ch) {
         for (int i = 0; i < vertexs.length; i++) {
@@ -134,6 +153,7 @@ public class KruskalCase {
         return edges;
     }
 
+    //获得终点
     private int getEnd(int[] ends, int i) {
         while (ends[i] != 0) {
             i = ends[i];
@@ -142,6 +162,7 @@ public class KruskalCase {
     }
 
 }
+
 
 class EData {
     char start;

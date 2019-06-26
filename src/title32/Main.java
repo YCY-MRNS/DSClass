@@ -3,6 +3,11 @@ package title32;
 import java.util.Scanner;
 
 
+/**
+ * @Description: 32:银行业务队列简单模拟
+ * @TestData: 8 2 1 3 9 4 11 13 15
+ * @Author: YuanChangYue
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -18,7 +23,6 @@ public class Main {
                 oddLq.add(number);
             }
         }
-
         String str = " ";
         for (int i = 0; i < length; i++) {
 

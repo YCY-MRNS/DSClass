@@ -11,19 +11,23 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
         String line = in.next();
+
         String[] treeArr = line.split("");
         String[] tree = new String[treeArr.length];
+
         for (int i = 0; i < treeArr.length; i++) {
+            //循环取出#
             if (!treeArr[i].equals("#")) {
                 tree[i] = treeArr[i];
             }
         }
 
         BinaryTree<String> binaryTree = new BinaryTree<>(tree);
+        //中根
         binaryTree.inorder();
-        binaryTree.postorder();
-        System.out.println(binaryTree.leaf());
-        System.out.println(binaryTree.height());
+        binaryTree.postorder();//后根
+        System.out.println(binaryTree.leaf());//输出二叉树的叶子结点
+        System.out.println(binaryTree.height());//输出二叉树的高度
     }
 }
 
@@ -64,7 +68,7 @@ class BinaryTree<T> {
         return toString(this.root);
     }
 
-    public String toString(BinaryNode<T> p) {
+    public String toString(BinaryNode<T> p) {//p代表访问结点
         if (p == null)
             return "^";
         return p.data.toString() + " " + toString(p.left) + toString(p.right);
@@ -76,9 +80,9 @@ class BinaryTree<T> {
         this.root = create(prelist);
     }
 
-    private BinaryNode<T> create(T[] prelist) {
+    private BinaryNode<T> create(T[] prelist) {//构建二叉树结点
         BinaryNode<T> p = null;
-        if (i < prelist.length) {
+        if (i < prelist.length) {//添加
             T elem = prelist[i];
             i++;
             if (elem != null) {
@@ -116,6 +120,7 @@ class BinaryTree<T> {
 
     /**
      * 中根遍历
+     * 使用递归方式先后输出左孩子，根节点、右孩子的值，直到没有孩子结点
      *
      * @param p
      */
@@ -151,6 +156,7 @@ class BinaryTree<T> {
 
     /**
      * 二叉树的结点数
+     * 凡是有根和左右孩子的结点就进行一次计数
      *
      * @param p
      * @return

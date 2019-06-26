@@ -13,7 +13,7 @@ public class Title_62 {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = Integer.parseInt(arrDataStrSplit[i]);
         }
-            bubbleSort(arr);
+        bubbleSort(arr);
     }
 
     private static void swap(int[] keys, int i, int j) {

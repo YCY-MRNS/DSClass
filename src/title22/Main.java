@@ -3,6 +3,18 @@ package title22;
 import java.util.Scanner;
 
 
+
+/**
+*@Description: 22:按大小顺序建立单链表并按要求删除节点
+*@TestData:
+            Emma 16
+            Emily 12
+            Madison 21
+            Isabella 22
+            Ava 15
+            END
+*@Author: YuanChangYue
+*/
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

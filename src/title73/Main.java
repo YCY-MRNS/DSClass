@@ -15,33 +15,31 @@ public class Main {
         int N = Integer.parseInt(num[0]);
         int K = Integer.parseInt(num[1]);
 
-        List<corw> c = new ArrayList<>(N);
+        List<cow> c = new ArrayList<>(N);
 
         for (int i = 0; i < N; i++) {
             String[] corws = in.nextLine().split("\\s+");
-            c.add(new corw(Integer.parseInt(corws[0]), Integer.parseInt(corws[1]), i + 1));
+            c.add(new cow(Integer.parseInt(corws[0]), Integer.parseInt(corws[1]), i + 1));
         }
-        Collections.sort(c, new corwFirstComparator());
+        c.sort(new corwFirstComparator());
 
         for (int i = 0; i < (N - K); i++) {
             c.remove(K);
         }
 
-        Collections.sort(c, new corwSecondComparator());
-
+        c.sort(new corwSecondComparator());
         System.out.println(c.get(0).getNum());
-
         in.close();
     }
 }
 
-class corw {
+class cow {
 
     private int first;
     private int second;
     private int num;
 
-    public corw(int first, int second, int num) {
+    public cow(int first, int second, int num) {
         this.first = first;
         this.second = second;
         this.num = num;
@@ -63,16 +61,16 @@ class corw {
 
 }
 
-class corwFirstComparator implements Comparator<corw> {
+class corwFirstComparator implements Comparator<cow> {
     @Override
-    public int compare(corw o1, corw o2) {
+    public int compare(cow o1, cow o2) {
         return o2.getFirst() - o1.getFirst();
     }
 }
 
-class corwSecondComparator implements Comparator<corw> {
+class corwSecondComparator implements Comparator<cow> {
     @Override
-    public int compare(corw o1, corw o2) {
+    public int compare(cow o1, cow o2) {
         return o2.getSecond() - o1.getSecond();
     }
 }

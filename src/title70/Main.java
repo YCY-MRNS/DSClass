@@ -8,27 +8,20 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-
-        String num = in.nextLine();
-
-        int arrLen = Integer.parseInt(num);
+        int arrLen = in.nextInt();
         int[] arr = new int[arrLen];
 
-        String arrData = in.nextLine();
-        String[] arrDataInt = arrData.split("\\s+");
-
         for (int i = 0; i < arrLen; i++)
-            arr[i] = Integer.parseInt(arrDataInt[i]);
+            arr[i] = in.nextInt();
 
         in.close();
         sort(arr);
-
     }
 
-    private static void sort(int[] a) {
+    private static void sort(int[] arr) {
 
-        int max = a[0];
-        for (int anA1 : a) {
+        int max = arr[0];
+        for (int anA1 : arr) {
             if (max < anA1)
                 max = anA1;
         }
@@ -44,7 +37,7 @@ public class Main {
             System.out.println("Step" + k + ".");
             int[] eleCount = new int[10];
 
-            for (int anA : a) {
+            for (int anA : arr) {
                 int numberOfDigits = anA / n % 10;
                 qArr.get(numberOfDigits).add(anA);
                 eleCount[numberOfDigits]++;
@@ -53,9 +46,10 @@ public class Main {
             int index = 0;
             for (int i = 0; i < qArr.size(); i++) {
                 System.out.print("Queue" + i + ":");
+
                 if (eleCount[i] != 0) {
                     for (int i1 = 0; i1 < eleCount[i]; i1++) {
-                        a[index++] = qArr.get(i).poll();
+                        arr[index++] = qArr.get(i).poll();
                     }
                 } else {
                     System.out.print("");
@@ -64,7 +58,8 @@ public class Main {
                 System.out.println();
             }
         }
-        for (int i : a) {
+
+        for (int i : arr) {
             System.out.print(i + " ");
         }
         System.out.println();
@@ -88,10 +83,9 @@ final class SeqQueue<T> {
         return this.front == this.rear;
     }
 
-    public boolean add(T x) {
+    void add(T x) {
         if (x == null)
-            return false;
-
+            return;
         if (this.front == (this.rear + 1) % this.element.length) {
             Object[] temp = this.element;
             this.element = new Object[temp.length * 2];
@@ -103,7 +97,6 @@ final class SeqQueue<T> {
         }
         this.element[this.rear] = x;
         this.rear = (this.rear + 1) % this.element.length;
-        return true;
     }
 
     T poll() {

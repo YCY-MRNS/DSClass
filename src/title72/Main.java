@@ -6,8 +6,7 @@ import java.util.Scanner;
  * @program: DSClassDesign
  * @description:
  * @author: YuanChangYue
- * @TestData
- * 6634 9796 435 1405 6123 10001 11459 12018 10372 19874 12860 11326 7096 30205 27010
+ * @TestData 6634 9796 435 1405 6123 10001 11459 12018 10372 19874 12860 11326 7096 30205 27010
  * 6634,9796,435,1405,6123,10001,11459,12018,10372,19874,12860,11326,7096,30205,27010
  * @create: 2019-06-18 11:49
  */
@@ -23,6 +22,11 @@ public class Main {
         barrelSort(arrays);
     }
 
+    /**
+     * 进行桶排序 (基数排序)
+     *
+     * @param arr 排序的数组
+     */
     private static void barrelSort(int[] arr) {
 
         int[][] bucket = new int[10][arr.length];
@@ -34,9 +38,10 @@ public class Main {
                 max = anArr;
         }
 
-
         int len = (max + "").length();
 
+
+        //6634 9796 435 1405 6123 10001 11459 12018 10372 19874 12860 11326 7096 30205 27010
         for (int m = 0, n = 1; m < len; m++, n *= 10) {
 
             for (int anArr : arr) {

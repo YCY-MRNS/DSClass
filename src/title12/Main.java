@@ -5,7 +5,9 @@ import java.util.Scanner;
 /**
  * @Description:
  * @Param:12:非递减有序集合合并
- * @return:
+ * @TestData: 11   12
+ * 2 4 6 7 8 9 12 34 56 78 89
+ * 3 5 7 9 12 34 56 98 234 456 789 1234
  * @Author: YuanChangYue
  * @date:
  */
@@ -31,7 +33,7 @@ public class Main {
         LA.addAll(LB);
 
         int temp;
-        for (int i = 0; i < LA.size(); i++) {
+        for (int i = 0; i < LA.size() - 1; i++) {
             for (int j = 0; j < LA.size(); j++) {
                 if (LA.get(i) < LA.get(j)) {
                     temp = LA.get(j);
