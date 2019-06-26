@@ -9,7 +9,6 @@ public class PrimAlgorithm {
 
         char[] data = new char[]{'A', 'B', 'C', 'D', 'E', 'F'};
 
-
         Scanner in = new Scanner(System.in);
         String conditionStr = in.nextLine();
         String[] cond = conditionStr.split("\\s+");
@@ -27,13 +26,15 @@ public class PrimAlgorithm {
         }
 
 
+        //创建一个图类
         MGraph graph = new MGraph(length);
+        //创建一个最小树
         MinTree minTree = new MinTree();
+        //创建图
         minTree.createGraph(graph, length, data, weight);
-
+        //从第一个点开始生成
         minTree.prim(graph, 0);
     }
-
 }
 
 
@@ -49,13 +50,11 @@ class MinTree {
         }
     }
 
-
     public void showGraph(MGraph graph) {
         for (int[] link : graph.weight) {
             System.out.println(Arrays.toString(link));
         }
     }
-
 
     public void prim(MGraph graph, int v) {
 
@@ -68,8 +67,6 @@ class MinTree {
         int h2 = -1;
         int minWeight = 10000;
         for (int k = 1; k < graph.verxs; k++) {
-
-
             for (int i = 0; i < graph.verxs; i++) {
                 for (int j = 0; j < graph.verxs; j++) {
                     if (visited[i] == 1 && visited[j] == 0 && graph.weight[i][j] < minWeight) {
@@ -80,8 +77,6 @@ class MinTree {
                     }
                 }
             }
-
-
             System.out.print(minWeight + " ");
 
             visited[h2] = 1;

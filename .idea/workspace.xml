@@ -6,11 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75aeb4ff-8bdf-4d9f-a49b-6eeed58a3472" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SeqList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SeqList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title12/SortedSeqList_Integer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Man.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title22/Node.class" afterDir="false" />
@@ -26,15 +24,11 @@
       <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title61/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title61/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title72/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title72/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reporter/数据结构课程设计报告-参考模板.doc" beforeDir="false" afterPath="$PROJECT_DIR$/reporter/数据结构课程设计报告-参考模板.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title12/SortedSeqList_Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title12/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title20/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title20/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title22/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title22/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title30/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title30/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title10/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/title32/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title32/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title32/Phone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title32/QueueEncoded.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title32/SeqQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title53/KruskalCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title53/KruskalCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title42/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title42/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title51/PrimAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title51/PrimAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title60/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title60/Main2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,53 +40,20 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1686732458">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="4" />
-          <entry key="java" value="801" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="801" />
-          <entry key="PLAIN_TEXT" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="SeqList" value="1" />
-          <entry key="SinglyList" value="1" />
-          <entry key="java" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="14" />
-          <entry key="UML" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="DSClass" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/title11/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/title10/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="399">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+              <folding>
+                <element signature="e#1192#1193#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,14 +93,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/Heap.java" />
-        <option value="$PROJECT_DIR$/src/title20/SeqList.java" />
         <option value="$PROJECT_DIR$/src/titlej24/Main.java" />
         <option value="$PROJECT_DIR$/src/title24/Main.java" />
         <option value="$PROJECT_DIR$/src/title60/Main.java" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/title60/Main2.java" />
         <option value="$PROJECT_DIR$/src/title40/Main.java" />
         <option value="$PROJECT_DIR$/src/title44/Main.java" />
         <option value="$PROJECT_DIR$/src/title43/BinaryNode.java" />
@@ -169,28 +127,25 @@
         <option value="$PROJECT_DIR$/src/title50/MatrixGraph.java" />
         <option value="$PROJECT_DIR$/src/title50/G4d.java" />
         <option value="$PROJECT_DIR$/src/title12/SortedSeqList_Integer.java" />
-        <option value="$PROJECT_DIR$/src/title10/Main.java" />
         <option value="$PROJECT_DIR$/src/title73/Main.java" />
         <option value="$PROJECT_DIR$/src/title72/Main.java" />
         <option value="$PROJECT_DIR$/src/title50/AbstractGraph.java" />
         <option value="$PROJECT_DIR$/src/title50/Main50.java" />
         <option value="$PROJECT_DIR$/src/title25/Main.java" />
-        <option value="$PROJECT_DIR$/src/title11/Main.java" />
         <option value="$PROJECT_DIR$/src/title52/Main.java" />
         <option value="$PROJECT_DIR$/src/title53/KruskalCase.java" />
         <option value="$PROJECT_DIR$/src/title20/Main.java" />
         <option value="$PROJECT_DIR$/src/title30/Main.java" />
         <option value="$PROJECT_DIR$/src/title12/Main.java" />
         <option value="$PROJECT_DIR$/src/title22/Main.java" />
+        <option value="$PROJECT_DIR$/src/title11/Main.java" />
         <option value="$PROJECT_DIR$/src/title32/Main.java" />
+        <option value="$PROJECT_DIR$/src/title42/Main.java" />
+        <option value="$PROJECT_DIR$/src/title51/PrimAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/title60/Main2.java" />
+        <option value="$PROJECT_DIR$/src/title10/Main.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1366" />
@@ -219,13 +174,13 @@
               <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSClass" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="title11" type="462c0819:PsiDirectoryNode" />
+              <item name="title10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSClass" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="title11" type="462c0819:PsiDirectoryNode" />
+              <item name="title10" type="462c0819:PsiDirectoryNode" />
               <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
@@ -240,7 +195,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/TrainProject/DSClass/src/title60/Main.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561476578987" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561520962468" />
     <property name="last_opened_file_path" value="G:/数据结构/ds" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -276,33 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="KruskalCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title53.KruskalCase" />
-      <module name="DSClassDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="title53.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title11.Main" />
-      <module name="DSClassDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="title11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrimAlgorithm">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="title12.Main" />
       <module name="DSClassDesign" />
@@ -342,12 +271,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title12.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="title42.Main" />
       <module name="DSClassDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="title12.*" />
+          <option name="PATTERN" value="title42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="title51.PrimAlgorithm" />
+      <module name="DSClassDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="title51.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,19 +298,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.KruskalCase" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.PrimAlgorithm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimAlgorithm" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.KruskalCase" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -400,6 +342,8 @@
       <workItem from="1561428186772" duration="7353000" />
       <workItem from="1561448771639" duration="3889000" />
       <workItem from="1561454354125" duration="11531000" />
+      <workItem from="1561509337000" duration="63000" />
+      <workItem from="1561509425454" duration="8346000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;数据结构&quot;">
       <created>1560865204579</created>
@@ -454,13 +398,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160963000" />
+    <option name="totallyTimeSpent" value="169372000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16617863" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16770834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -469,8 +413,8 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294271" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47395834" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32222223" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37314814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -529,9 +473,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;数据结构&quot;" />
     <MESSAGE value="&quot;数据结构2019/6/19&quot;" />
@@ -578,20 +519,52 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/title42/Main.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/title42/Main.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/title42/Main.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/title51/PrimAlgorithm.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/title51/PrimAlgorithm.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/title51/PrimAlgorithm.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/title51/PrimAlgorithm.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/DualPivotQuicksort.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java" />
-    <entry file="file://$PROJECT_DIR$/src/title41/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/title77/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -685,21 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/title10/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-          <folding>
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1531#1532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/title50/LinkedMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -746,13 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title42/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -867,7 +818,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="44.5" y="15.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="45.0" y="15.0" />
           <SelectedNodes>
             <node>title12.SeqList</node>
           </SelectedNodes>
@@ -901,7 +852,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="50.5" y="15.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="51.0" y="15.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -909,13 +860,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/src/title22/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2657">
@@ -927,17 +872,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/title32/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/title11/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-718">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="532">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/title11/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/title32/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="378">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title42/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title51/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1510">
+          <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title51/PrimAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="class#MGraph#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title60/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title60/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title10/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

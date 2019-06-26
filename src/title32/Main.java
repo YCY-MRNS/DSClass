@@ -20,37 +20,21 @@ public class Main {
         }
 
         String str = " ";
-        int count = 0;
         for (int i = 0; i < length; i++) {
 
             if (!oddLq.isEmpty()) {
-                count++;
                 System.out.print(oddLq.poll() + str);
-            }
-            if (!oddLq.isEmpty()) {
-                count++;
                 System.out.print(oddLq.poll() + str);
             }
             if (!evenLq.isEmpty()) {
-                count++;
                 System.out.print(evenLq.poll() + str);
             }
-            if (count == length) {
-                str = "";
-            }
         }
+        scanner.close();
     }
+
 }
 
-interface Queue<T> {
-    public abstract boolean isEmpty();
-
-    public abstract boolean add(T x);
-
-    public abstract T peek();
-
-    public abstract T poll();
-}
 
 class Node<T> {
     public T data;
@@ -71,7 +55,7 @@ class Node<T> {
 }
 
 
-final class LinkedQueue<T> implements Queue<T> {
+final class LinkedQueue<T> {
     private Node<T> front, rear;
 
     public LinkedQueue() {

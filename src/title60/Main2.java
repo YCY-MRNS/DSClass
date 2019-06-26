@@ -17,8 +17,6 @@ public class Main2 {
 
         T = scanner.nextInt();
 
-        int index = 1;
-
         while (T != 0) {
             T--;
             n = scanner.nextInt();
