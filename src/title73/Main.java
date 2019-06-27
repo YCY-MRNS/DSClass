@@ -15,31 +15,32 @@ public class Main {
         int N = Integer.parseInt(num[0]);
         int K = Integer.parseInt(num[1]);
 
-        List<cow> c = new ArrayList<>(N);
+        List<Cow> c = new ArrayList<>(N);
 
         for (int i = 0; i < N; i++) {
             String[] corws = in.nextLine().split("\\s+");
-            c.add(new cow(Integer.parseInt(corws[0]), Integer.parseInt(corws[1]), i + 1));
+            c.add(new Cow(Integer.parseInt(corws[0]), Integer.parseInt(corws[1]), i + 1));
         }
-        c.sort(new corwFirstComparator());
+        c.sort(new CowFirstComparator());
 
         for (int i = 0; i < (N - K); i++) {
             c.remove(K);
         }
 
-        c.sort(new corwSecondComparator());
+        c.sort(new CowSecondComparator());
+
         System.out.println(c.get(0).getNum());
         in.close();
     }
 }
 
-class cow {
+class Cow {
 
     private int first;
     private int second;
     private int num;
 
-    public cow(int first, int second, int num) {
+    public Cow(int first, int second, int num) {
         this.first = first;
         this.second = second;
         this.num = num;
@@ -61,16 +62,16 @@ class cow {
 
 }
 
-class corwFirstComparator implements Comparator<cow> {
+class CowFirstComparator implements Comparator<Cow> {
     @Override
-    public int compare(cow o1, cow o2) {
+    public int compare(Cow o1, Cow o2) {
         return o2.getFirst() - o1.getFirst();
     }
 }
 
-class corwSecondComparator implements Comparator<cow> {
+class CowSecondComparator implements Comparator<Cow> {
     @Override
-    public int compare(cow o1, cow o2) {
+    public int compare(Cow o1, Cow o2) {
         return o2.getSecond() - o1.getSecond();
     }
 }

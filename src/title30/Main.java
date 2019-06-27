@@ -44,6 +44,14 @@ public class Main {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         String str = in.nextLine();
+        //输入的值包含数字和字母 提示--->请正确输入符号：
+        for (int i = 0; i < str.length(); i++) {
+            if (Character.isDigit(str.charAt(i)) || Character.isLetter(str.charAt(i))) {
+                System.out.println("请正确输入符号：");
+                str = in.nextLine();
+            }
+        }
+
         System.out.println(Main.isMatched(str));
     }
 }

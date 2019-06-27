@@ -23,6 +23,7 @@ public class Main {
                 oddLq.add(number);
             }
         }
+
         String str = " ";
         for (int i = 0; i < length; i++) {
 

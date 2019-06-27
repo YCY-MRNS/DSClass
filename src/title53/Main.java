@@ -2,13 +2,13 @@ package title53;
 
 import java.util.Scanner;
 
-public class KruskalCase {
-
-    private int edgeNum;
-    private char[] vertexs;
-    private int[][] matrix;
-    public int totalValue = 0;
-
+/**
+ * @program: DSClass
+ * @description:
+ * @author: ChangYue
+ * @create: 2019-06-27 18:20
+ */
+public class Main {
 
     public static void main(String[] args) {
 
@@ -17,7 +17,7 @@ public class KruskalCase {
         String[] cond = conditionStr.split("\\s+");
         int length = Integer.parseInt(cond[0]);
 
-        char[] vertexes = getTotalVertex(length);
+        String[] vertexes = getTotalVertex(length);
         int[][] weight = new int[length][length];
 
         for (int i = 0; i < length; i++) {
@@ -33,32 +33,29 @@ public class KruskalCase {
 
     }
 
-    /**
-     * 获得顶点
-     *
-     * @param VertexLen 顶点数
-     * @return 顶点集合
-     */
-    private static char[] getTotalVertex(int VertexLen) {
-        char[] v = new char[VertexLen];
+    private static String[] getTotalVertex(int VertexLen) {
+        String[] v = new String[VertexLen];
+        char a = '1';
         for (int i = 0; i < VertexLen; i++) {
-            v[i] = (char) (i + 49);
+            v[i] = String.valueOf(a++);
         }
         return v;
     }
 
+}
 
-    /**
-     * 构造方法
-     *
-     * @param vertexs 顶点
-     * @param matrix  领接矩阵
-     */
-    public KruskalCase(char[] vertexs, int[][] matrix) {
+class KruskalCase {
+
+    private int edgeNum;
+    private String[] vertexs;
+    private int[][] matrix;
+    public int totalValue = 0;
+
+    public KruskalCase(String[] vertexs, int[][] matrix) {
 
         int vlen = vertexs.length;
 
-        this.vertexs = new char[vlen];
+        this.vertexs = new String[vlen];
         for (int i = 0; i < vertexs.length; i++) {
             this.vertexs[i] = vertexs[i];
         }
@@ -104,20 +101,15 @@ public class KruskalCase {
 
         this.totalValue = values;
 
+
+
         //输出顶点
         for (int i = 0; i < index; i++) {
             System.out.print(rets[i]);
         }
 
-        System.out.println(values);
-
     }
 
-    /**
-     * 排序
-     *
-     * @param edges
-     */
     private void sortEdges(EData[] edges) {
         for (int i = 0; i < edges.length - 1; i++) {
             for (int j = 0; j < edges.length - 1 - i; j++) {
@@ -131,9 +123,9 @@ public class KruskalCase {
     }
 
 
-    private int getPosition(char ch) {
+    private int getPosition(String ch) {
         for (int i = 0; i < vertexs.length; i++) {
-            if (vertexs[i] == ch) {
+            if (vertexs[i].equals(ch)) {
                 return i;
             }
         }
@@ -165,11 +157,11 @@ public class KruskalCase {
 
 
 class EData {
-    char start;
-    char end;
+    String start;
+    String end;
     int weight;
 
-    EData(char start, char end, int weight) {
+    EData(String start, String end, int weight) {
         this.start = start;
         this.end = end;
         this.weight = weight;
@@ -181,3 +173,4 @@ class EData {
     }
 
 }
+

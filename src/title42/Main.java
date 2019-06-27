@@ -28,10 +28,11 @@ public class Main {
         String numStr = in.nextLine();
         String[] num = numStr.split("\\s+");
 
-        Map<String, String> relation = new HashMap<>();
+        Map<String, String> link = new HashMap<>();
         int n = Integer.parseInt(num[0]);
         int m = Integer.parseInt(num[1]);
         String[] names = new String[n];
+
 
 
         /*
@@ -43,21 +44,20 @@ public class Main {
             String name = in.nextLine();
             int blackNum = getBlackNum(name);
             if (blackNum == 0) {
-                relation.put(name, "ancestor");
+                link.put(name, "ancestor");
                 names[0] = name;
             } else {
-                relation.put(name.trim(), names[blackNum / 2 - 1]);
+                link.put(name.trim(), names[blackNum / 2 - 1]);
                 names[blackNum / 2] = name.trim();
             }
         }
 
         /*
-         * child 第一个值在map中的’父亲‘ 和最后的值是否相同
-         * parent 将第一个值和最后一个值交换
-         * sibling 判断父亲是不是相同的人
-         * descendant 判断不是同辈且不是老大
-         * ancestor 交换位置 将跨辈分比较 变成上一辈比较
-         *
+         * child      第一个值在map中的’父亲‘ 和最后的值是否相同
+         * parent     Nancy is the parent of Frank --> Frank is the child of Nancy
+         * sibling    判断父亲是不是相同的人
+         * descendant Robert is an ancestor of Andrew --> Andrew is a descendant of Robert
+         * ancestor   不是兄弟和第一个不是祖先 可能是父子关系 将一个值赋直为比较对象的值（确定是不是父子关系）这个两个值的父亲相同也是
          * */
         String temp = "";
         for (int i = 0; i < m; i++) {
@@ -69,13 +69,13 @@ public class Main {
                     judgeSentence[0] = judgeSentence[5];
                     judgeSentence[5] = temp;
                 case "child":
-                    if (relation.get(judgeSentence[0]).equals(judgeSentence[5]))
+                    if (link.get(judgeSentence[0]).equals(judgeSentence[5]))
                         System.out.println("True");
                     else
                         System.out.println("False");
                     break;
                 case "sibling":
-                    if (relation.get(judgeSentence[0]).equals(relation.get(judgeSentence[5])))
+                    if (link.get(judgeSentence[0]).equals(link.get(judgeSentence[5])))
                         System.out.println("True");
                     else
                         System.out.println("False");
@@ -86,12 +86,13 @@ public class Main {
                     judgeSentence[0] = judgeSentence[5];
                     judgeSentence[5] = temp;
                 case "descendant":
-                    while (!relation.get(judgeSentence[0]).equals(relation.get(judgeSentence[5]))
-                            && !relation.get(judgeSentence[0]).equals("ancestor")) {
-                        judgeSentence[0] = relation.get(judgeSentence[0]);
+                    //Frank is a descendant of John --> John is a descendant of John
+                    while (!link.get(judgeSentence[0]).equals(link.get(judgeSentence[5]))
+                            && !link.get(judgeSentence[0]).equals("ancestor")) {
+                        judgeSentence[0] = link.get(judgeSentence[0]);
                     }
 
-                    if (relation.get(judgeSentence[0]).equals(relation.get(judgeSentence[5]))) {
+                    if (link.get(judgeSentence[0]).equals(link.get(judgeSentence[5]))) {
                         System.out.println("True");
                     } else {
                         System.out.println("False");

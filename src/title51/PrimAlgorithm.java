@@ -70,7 +70,6 @@ class MinTree {
             for (int i = 0; i < graph.verxs; i++) {
                 for (int j = 0; j < graph.verxs; j++) {
                     if (visited[i] == 1 && visited[j] == 0 && graph.weight[i][j] < minWeight) {
-
                         minWeight = graph.weight[i][j];
                         h1 = i;
                         h2 = j;

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @program: DSClassDesign
- * @description:
+ * @description: 72:桶式排序
  * @author: YuanChangYue
  * @TestData 6634 9796 435 1405 6123 10001 11459 12018 10372 19874 12860 11326 7096 30205 27010
  * 6634,9796,435,1405,6123,10001,11459,12018,10372,19874,12860,11326,7096,30205,27010
@@ -23,7 +23,7 @@ public class Main {
     }
 
     /**
-     * 进行桶排序 (基数排序)
+     * 进行桶排序
      *
      * @param arr 排序的数组
      */
@@ -39,7 +39,6 @@ public class Main {
         }
 
         int len = (max + "").length();
-
 
         //6634 9796 435 1405 6123 10001 11459 12018 10372 19874 12860 11326 7096 30205 27010
         for (int m = 0, n = 1; m < len; m++, n *= 10) {
