@@ -5,25 +5,25 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str1 = sc.nextLine();//获取第一行数据
-        String[] split1 = str1.split(" ");//将第一行数据存放入数组中
-        int edge = Integer.parseInt(split1[1]);//获取边数
-        String str2 = sc.nextLine();//获取第二行所有的顶点名称
-        String[] vertex = str2.split(" ");//将所有的顶点名称放入数组中
-        Triple edges[] = new Triple[edge];//构建并实例化图带权值的边类的数组，将其长度设置为获到的变的条数
-        for (int i = 0; i < edge; i++) {//循环获取所有的边（从第三行开始），并将这些边存放在数组中
+        String str1 = sc.nextLine();
+        String[] split1 = str1.split(" ");
+        int edge = Integer.parseInt(split1[1]);
+        String str2 = sc.nextLine();
+        String[] vertex = str2.split(" ");
+        Triple edges[] = new Triple[edge];
+        for (int i = 0; i < edge; i++) {
             String Edge = sc.nextLine();
             String[] split = Edge.split(" ");
-            //获取所有有连接边的两个顶点的名称
+
             String num1 = split[0].substring(split[0].length() - 1);
             String num2 = split[1].substring(split[1].length() - 1);
-            //实例化权值为1的三元组边类，存放在总的边数组中
+
             edges[i] = new Triple(Integer.parseInt(num1) - 1, Integer.parseInt(num2) - 1, 1);
         }
-        //实例化以vertices顶点集合和edges边集合构造图
+
         MatrixGraph<String> mG = new MatrixGraph<>(vertex, edges);
-        mG.DFSTraverse(0);//图的深度优先搜索
-        mG.BFSTraverse(0);//图的广度优先搜索
+        mG.DFSTraverse(0);
+        mG.BFSTraverse(0);
     }
 
     public static class MatrixGraph<T> extends AbstractGraph<T> {

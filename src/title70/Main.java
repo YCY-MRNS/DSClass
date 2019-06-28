@@ -26,11 +26,9 @@ public class Main {
      * 另外需要创建一个数组来存放每个桶已经存放的数量，以便之后出队
      * 循环判断个十百千..位，将对应值放进同号的桶队列中
      * 当循环最多为位数时既是排序完成的时候
-     *
      * @param arr
      */
     private static void sort(int[] arr) {
-
 
         int max = arr[0];
         for (int anA1 : arr) {
@@ -48,7 +46,7 @@ public class Main {
         for (int k = 1, n = 1; k < m + 1; k++, n *= 10) {
             System.out.println("Step" + k + ".");
 
-            int[] eleCount = new int[10];
+            int[] eleCount = new int[arr.length];
 
             for (int anA : arr) {
                 int numberOfDigits = anA / n % 10;
@@ -67,6 +65,7 @@ public class Main {
                 } else {
                     System.out.print("");
                 }
+
                 eleCount[i] = 0;
                 System.out.println();
             }
@@ -120,6 +119,4 @@ final class SeqQueue<T> {
         System.out.print(temp + " ");
         return temp;
     }
-
-
 }

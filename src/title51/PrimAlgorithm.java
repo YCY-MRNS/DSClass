@@ -25,14 +25,10 @@ public class PrimAlgorithm {
             }
         }
 
-
-        //创建一个图类
         MGraph graph = new MGraph(length);
-        //创建一个最小树
         MinTree minTree = new MinTree();
-        //创建图
         minTree.createGraph(graph, length, data, weight);
-        //从第一个点开始生成
+
         minTree.prim(graph, 0);
     }
 }
@@ -40,7 +36,7 @@ public class PrimAlgorithm {
 
 class MinTree {
 
-    public void createGraph(MGraph graph, int verxs, char data[], int[][] weight) {
+    void createGraph(MGraph graph, int verxs, char data[], int[][] weight) {
         int i, j;
         for (i = 0; i < verxs; i++) {
             graph.data[i] = data[i];
@@ -56,10 +52,9 @@ class MinTree {
         }
     }
 
-    public void prim(MGraph graph, int v) {
+    void prim(MGraph graph, int v) {
 
         int visited[] = new int[graph.verxs];
-
 
         visited[v] = 1;
 
@@ -76,6 +71,7 @@ class MinTree {
                     }
                 }
             }
+
             System.out.print(minWeight + " ");
 
             visited[h2] = 1;
@@ -91,7 +87,7 @@ class MGraph {
     char[] data;
     int[][] weight;
 
-    public MGraph(int verxs) {
+    MGraph(int verxs) {
         this.verxs = verxs;
         data = new char[verxs];
         weight = new int[verxs][verxs];

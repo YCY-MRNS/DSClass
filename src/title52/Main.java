@@ -5,20 +5,19 @@ import java.util.Scanner;
 /**
  * @description: 52:丛林中的路
  * @author: YuanChangYue
- * @TestData
-9
-A 2 B 12 I 25
-B 3 C 10 H 40 I 8
-C 2 D 18 G 55
-D 1 E 44
-E 2 F 60 G 38
-F 0
-G 1 H 35
-H 1 I 35
- 3
- A 2 B 10 C 40
- B 1 C 20
- 0
+ * @TestData 9
+ * A 2 B 12 I 25
+ * B 3 C 10 H 40 I 8
+ * C 2 D 18 G 55
+ * D 1 E 44
+ * E 2 F 60 G 38
+ * F 0
+ * G 1 H 35
+ * H 1 I 35
+ * 3
+ * A 2 B 10 C 40
+ * B 1 C 20
+ * 0
  */
 public class Main {
 
@@ -84,7 +83,6 @@ public class Main {
         in.close();
     }
 
-
     /**
      * 根据k获得对应村落的顶点数
      *
@@ -115,9 +113,7 @@ public class Main {
         }
         return -1;
     }
-
 }
-
 
 class KruskalCase {
 
@@ -163,6 +159,7 @@ class KruskalCase {
 
             int p1 = getPosition(edges[i].start);
             int p2 = getPosition(edges[i].end);
+
             int m = getEnd(ends, p1);
             int n = getEnd(ends, p2);
 
@@ -171,15 +168,22 @@ class KruskalCase {
                 rets[index++] = edges[i];
                 values += edges[i].weight;
             }
+
         }
 
         System.out.println(values);
 
-        //输出顶点
         for (int i = 0; i < index; i++) {
             System.out.print(rets[i]);
         }
 
+    }
+
+    private int getEnd(int[] ends, int i) {
+        while (ends[i] != 0) {
+            i = ends[i];
+        }
+        return i;
     }
 
     private void sortEdges(EData[] edges) {
@@ -225,16 +229,7 @@ class KruskalCase {
         }
         return edges;
     }
-
-    private int getEnd(int[] ends, int i) {
-        while (ends[i] != 0) {
-            i = ends[i];
-        }
-        return i;
-    }
-
 }
-
 
 class EData {
     String start;

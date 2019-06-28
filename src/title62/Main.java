@@ -1,5 +1,7 @@
 package title62;
+
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -32,6 +34,7 @@ public class Main {
                     swap(keys, j, j + 1);
                     exchange = true;
                 }
+
             for (int key : keys) {
                 System.out.print(key + " ");
             }

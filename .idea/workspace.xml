@@ -5,28 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75aeb4ff-8bdf-4d9f-a49b-6eeed58a3472" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/title53/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title30/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title30/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title30/SeqList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title30/SeqList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title30/SeqStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title30/SeqStack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title42/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title42/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title61/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title61/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSClassDesign/title72/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSClassDesign/title72/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reporter/数据结构课程设计报告-参考模板.doc" beforeDir="false" afterPath="$PROJECT_DIR$/reporter/数据结构课程设计报告-参考模板.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title30/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title30/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title32/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title32/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/title42/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title42/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title50/Main50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title50/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title43/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title43/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title50/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title50/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/title51/PrimAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title51/PrimAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/title52/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title52/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title53/KruskalCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title61/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title61/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title62/Title_62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title62/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title62/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title62/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/title70/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title70/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title72/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title72/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title73/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title73/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title77/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/title77/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,56 +28,16 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1686732458">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="194" />
-          <entry key="md" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="194" />
-          <entry key="Markdown" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="5" />
-          <entry key="java" value="4392" />
-          <entry key="md" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="4392" />
-          <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="5" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="DSClass" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/title52/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/title51/PrimAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <element signature="method#KruskalCase#0;class#KruskalCase#0" />
-              </folding>
+            <state relative-caret-position="456">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -127,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/title41/Main.java" />
         <option value="$PROJECT_DIR$/src/title77/Test.java" />
         <option value="$PROJECT_DIR$/src/title50/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/title50/Queue.java" />
@@ -153,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/title11/Main.java" />
         <option value="$PROJECT_DIR$/src/title60/Main2.java" />
         <option value="$PROJECT_DIR$/src/title22/Main.java" />
-        <option value="$PROJECT_DIR$/src/title12/Main.java" />
         <option value="$PROJECT_DIR$/src/title53/KristalCase.java" />
         <option value="$PROJECT_DIR$/src/title52/test52.java" />
         <option value="$PROJECT_DIR$/src/p52/test61.java" />
@@ -161,31 +109,27 @@
         <option value="$PROJECT_DIR$/src/title10/Main.java" />
         <option value="$PROJECT_DIR$/src/title20/Main20.java" />
         <option value="$PROJECT_DIR$/src/title30/Test.java" />
-        <option value="$PROJECT_DIR$/src/title43/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/title77/Main.java" />
         <option value="$PROJECT_DIR$/src/title50/Main50.java" />
-        <option value="$PROJECT_DIR$/src/title32/Main.java" />
         <option value="$PROJECT_DIR$/src/title53/KruskalCase.java" />
         <option value="$PROJECT_DIR$/src/title61/Main.java" />
         <option value="$PROJECT_DIR$/src/title62/Title_62.java" />
         <option value="$PROJECT_DIR$/src/title30/Main.java" />
-        <option value="$PROJECT_DIR$/src/title73/Main.java" />
-        <option value="$PROJECT_DIR$/src/title70/Main.java" />
-        <option value="$PROJECT_DIR$/src/title72/Main.java" />
-        <option value="$PROJECT_DIR$/src/title51/PrimAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/title50/Main.java" />
-        <option value="$PROJECT_DIR$/src/title42/Main.java" />
         <option value="$PROJECT_DIR$/src/title53/Main.java" />
+        <option value="$PROJECT_DIR$/src/title32/Main.java" />
+        <option value="$PROJECT_DIR$/src/title72/Main.java" />
+        <option value="$PROJECT_DIR$/src/title73/Main.java" />
+        <option value="$PROJECT_DIR$/src/title77/Main.java" />
+        <option value="$PROJECT_DIR$/src/title12/Main.java" />
+        <option value="$PROJECT_DIR$/src/title43/Main.java" />
+        <option value="$PROJECT_DIR$/src/title50/Main.java" />
+        <option value="$PROJECT_DIR$/src/title62/Main.java" />
+        <option value="$PROJECT_DIR$/src/title42/Main.java" />
+        <option value="$PROJECT_DIR$/src/title70/Main.java" />
         <option value="$PROJECT_DIR$/src/title52/Main.java" />
+        <option value="$PROJECT_DIR$/src/title51/PrimAlgorithm.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1366" />
@@ -214,6 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,27 +170,17 @@
             <path>
               <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSClass" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSClass" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="title53" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSClass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSClass" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="title53" type="462c0819:PsiDirectoryNode" />
-              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +188,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/TrainProject/DSClass/src/title60/Main.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561656056143" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561694999707" />
     <property name="last_opened_file_path" value="G:/数据结构/ds" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -288,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="title70.Main" />
       <module name="DSClassDesign" />
@@ -363,10 +299,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
@@ -403,6 +339,7 @@
       <workItem from="1561509425454" duration="8346000" />
       <workItem from="1561531678281" duration="23913000" />
       <workItem from="1561613610325" duration="29561000" />
+      <workItem from="1561681937653" duration="12134000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;数据结构&quot;">
       <created>1560865204579</created>
@@ -457,13 +394,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222846000" />
+    <option name="totallyTimeSpent" value="234980000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986979" weight="0.20204978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.2015625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,8 +409,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50130206" side_tool="true" weight="0.16251831" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294271" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42708334" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3893229" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4138889" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3888889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -532,9 +469,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;数据结构&quot;" />
     <MESSAGE value="&quot;数据结构2019/6/19&quot;" />
@@ -545,48 +479,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title77/Main.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title77/Main.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title77/Main.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title51/PrimAlgorithm.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title51/PrimAlgorithm.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title51/PrimAlgorithm.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title51/PrimAlgorithm.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/title20/Main20.java</url>
           <line>21</line>
@@ -625,46 +517,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/title42/Main.java</url>
-          <line>82</line>
+          <line>30</line>
           <properties />
-          <option name="timeStamp" value="61" />
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/title42/Main.java</url>
-          <line>87</line>
+          <line>64</line>
           <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title42/Main.java</url>
-          <line>91</line>
-          <properties />
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title42/Main.java</url>
-          <line>94</line>
-          <properties />
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title42/Main.java</url>
-          <line>95</line>
-          <properties />
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/title42/Main.java</url>
-          <line>97</line>
-          <properties />
-          <option name="timeStamp" value="66" />
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/title50/G5d.java" />
-    <entry file="file://$PROJECT_DIR$/src/title50/graphic.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java" />
     <entry file="uml://JAVA/title10.Main">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -768,13 +634,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/title24/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/title22/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/title51/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/title52/test52.java" />
     <entry file="file://$PROJECT_DIR$/src/p52/test61.java" />
@@ -817,17 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/title43/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
-          <folding>
-            <element signature="e#1608#1609#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -845,44 +693,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/title77/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title12/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="102" column="28" lean-forward="true" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title32/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title53/KruskalCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="114" column="15" lean-forward="true" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
-          <folding>
-            <element signature="method#KruskalCase#0;class#KruskalCase#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="125" column="62" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title53/KruskalCase.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Comparator.java" />
     <entry file="file://$PROJECT_DIR$/src/title30/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -893,72 +705,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/title73/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title72/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title61/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title51/PrimAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title62/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title70/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title50/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="551" column="32" lean-forward="true" selection-start-line="551" selection-start-column="32" selection-end-line="551" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/title42/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java" />
     <entry file="file://$PROJECT_DIR$/src/title53/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -969,13 +716,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/title32/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title61/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2062">
+          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="488" column="46" lean-forward="true" selection-start-line="488" selection-start-column="46" selection-end-line="488" selection-end-column="46" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title43/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+          <folding>
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title50/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title12/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="86" column="19" lean-forward="true" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+          <folding>
+            <element signature="e#3265#3266#0" expanded="true" />
+            <element signature="e#3317#3318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title22/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title62/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title73/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title42/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title70/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title77/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/title52/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="method#KruskalCase#0;class#KruskalCase#0" />
-          </folding>
+        <state relative-caret-position="509">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title72/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/title51/PrimAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>

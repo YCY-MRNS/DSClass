@@ -16,14 +16,12 @@ public class Main {
         String[] tree = new String[treeArr.length];
 
         for (int i = 0; i < treeArr.length; i++) {
-            //循环取出#
             if (!treeArr[i].equals("#")) {
                 tree[i] = treeArr[i];
             }
         }
 
         BinaryTree<String> binaryTree = new BinaryTree<>(tree);
-        //中根
         binaryTree.inorder();
         binaryTree.postorder();//后根
         System.out.println(binaryTree.leaf());//输出二叉树的叶子结点
@@ -56,7 +54,6 @@ class BinaryNode<T> {
 
 }
 
-
 class BinaryTree<T> {
     public BinaryNode<T> root;
 
@@ -86,7 +83,7 @@ class BinaryTree<T> {
             T elem = prelist[i];
             i++;
             if (elem != null) {
-                p = new BinaryNode<T>(elem);
+                p = new BinaryNode<>(elem);
                 p.left = create(prelist);
                 p.right = create(prelist);
             }

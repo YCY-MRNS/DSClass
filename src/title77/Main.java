@@ -3,7 +3,6 @@ package title77;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-
 public class Main {
     private static int[] table = {2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 0, 7, 7, 8, 8, 8, 9, 9, 9, 0};
     private static String[] leadingZero = {"000000", "00000", "0000", "000", "00", "0", ""};

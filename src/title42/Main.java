@@ -33,8 +33,6 @@ public class Main {
         int m = Integer.parseInt(num[1]);
         String[] names = new String[n];
 
-
-
         /*
          * 这道题实际上是类似于找父亲的过程,利用Map存放每个人和他的父亲
          *      1.如何存放Map中的？
@@ -51,6 +49,10 @@ public class Main {
                 names[blackNum / 2] = name.trim();
             }
         }
+
+
+
+
 
         /*
          * child      第一个值在map中的’父亲‘ 和最后的值是否相同
@@ -92,6 +94,7 @@ public class Main {
                         judgeSentence[0] = link.get(judgeSentence[0]);
                     }
 
+                    //John is a descendant of Andrew
                     if (link.get(judgeSentence[0]).equals(link.get(judgeSentence[5]))) {
                         System.out.println("True");
                     } else {
@@ -100,7 +103,6 @@ public class Main {
             }
         }
     }
-
 
     /**
      * 获得名字的空格数
